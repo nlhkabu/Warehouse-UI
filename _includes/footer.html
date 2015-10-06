@@ -1,6 +1,6 @@
 <footer class="footer" role="contentinfo">
   <div class="footer-logo">
-    <img src="/img/white-cube.png" alt="Logo image">
+    <img src="{{ "/img/white-cube.png" | prepend: site.baseurl }}" alt="Logo image">
   </div>
   <div class="footer-links">
     <ul>
@@ -53,7 +53,7 @@
       </a>
 
       <a class="sponsor">
-        <img src="/img/rabbit.png">
+        <img src="{{ "/img/rabbit.png" | prepend: site.baseurl }}">
         <span>
           RabbitMQ:<br/>
           <strong>CloudAMQP</strong>
@@ -69,7 +69,7 @@
       </a>
 
       <a class="sponsor">
-        <img src="/img/hp.png">
+        <img src="{{ "/img/hp.png" | prepend: site.baseurl }}">
         <span>
           Development<br/>
           <strong>Hewlett-Packard</strong>
@@ -77,7 +77,7 @@
       </a>
 
       <a class="sponsor">
-        <img src="/img/kabu.png">
+        <img src="{{ "/img/kabu.png" | prepend: site.baseurl }}">
         <span>
           UX &amp; Design<br/>
           <strong>Kabu Creative</strong>
@@ -119,8 +119,8 @@
 </footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="/js/plugins.js"></script>
-<script src="/js/main.js"></script>
+<script src="{{ "/js/plugins.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/js/main.js" | prepend: site.baseurl }}"></script>
 
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 <script>
