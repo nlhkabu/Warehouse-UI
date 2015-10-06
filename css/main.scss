@@ -1,0 +1,31 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+// First, let's define our variables
+$base-font-family: 'Source Sans Pro', 'Helvetica', Arial, sans-serif;
+$base-font-size:   17px;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.4;
+
+$spacing-unit:     30px;
+
+$text-color:       #464646;
+$background-color: #fdfdfd;
+$brand-color:      #006dad;
+$white: #fff;
+
+@import
+        "bourbon/bourbon", // provides a range of SASS mixins to utilise in our custom code
+        "neat/neat", // semantic grid for the win!
+        "base",
+        "layout",
+        "header",
+        "footer",
+        "home",
+        "packages",
+        "package",
+        "author"
+;

@@ -1,0 +1,46 @@
+// Packages list page (search results)
+
+aside.filter-results {
+  @include span-columns(3);
+  padding: 60px 0;
+}
+
+.search-results {
+  @include span-columns(9);
+  padding: 60px 0;
+}
+
+// Expanding / Collapsing sections
+.expander {
+  margin-top: 40px;
+
+  .expander-trigger {
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+    display: block;
+    text-decoration: none;
+
+    &:before {
+      content: "\25BC";
+      margin-right: 0.5em;
+    }
+  }
+  
+  .expander-content {
+    padding: 20px 0;
+      a {
+      display: block;
+      margin-right: 10px;
+    }
+  }
+
+  .expander-hidden {
+    &:before {
+      content: "\25BA";
+    }
+  }
+
+  .expander-hidden + .expander-content {
+    display: none;
+  }
+}

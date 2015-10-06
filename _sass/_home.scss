@@ -1,0 +1,45 @@
+
+.homepage-banner {
+  background-color: $brand-color;
+  color: $white;
+  text-align: center;
+  padding: 60px 0;
+
+  h1 {
+    max-width: 850px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  input {
+    font-size: 22px;
+    padding: 9px 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+
+  input[type=text]{
+    width: 600px;
+    max-width: 100%;
+    @media screen and (min-width: 739px) {
+      margin-right: 5px;
+    }
+  }
+
+  .button {
+    font-size: $base-font-size * 1.2;
+  }
+
+  .browse {
+    margin-top: 20px;
+    font-size: 22px;
+
+    a {
+      color: $white;
+      text-decoration: underline;
+      text-decoration-color: rgba(255,255,255, 0.4);
+    }
+  }
+}
