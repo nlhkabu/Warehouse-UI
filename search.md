@@ -17,9 +17,9 @@ permalink: /packages/
 <section>
   <div class="package-list">
     <div class="package-snippet">
-      <h3 class="title"><a href="/package/">package_title</a></h3>
+      <h3 class="title"><a href="{{ "/package/" | prepend: site.baseurl }}">package_title</a></h3>
       <p class="meta">
-        <span class="version">v1.2</span> by <a href="/author/">Author Name</a>
+        <span class="version">v1.2</span> by <a href="{{ "/author/" | prepend: site.baseurl }}">Author Name</a>
       </p>
       <p class="description">
         This is the package description

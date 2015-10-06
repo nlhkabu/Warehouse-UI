@@ -26,7 +26,7 @@ permalink: /author/
     <h3>Six packages authored by Author Name</h3>
     <div class="package-list">
       <div class="package-snippet">
-        <h3 class="title"><a href="/package/">package_title</a></h3>
+        <h3 class="title"><a href="{{ "/package/" | prepend: site.baseurl }}">package_title</a></h3>
         <p class="meta">
           <em>Last updated on 12th December, 2015</em>
         </p>
@@ -35,7 +35,7 @@ permalink: /author/
         </p>
       </div>
       <div class="package-snippet">
-        <h3 class="title"><a href="/package/">package_title</a></h3>
+        <h3 class="title"><a href="{{ "/package/" | prepend: site.baseurl }}">package_title</a></h3>
         <p class="meta">
           <em>Last updated on 12th December, 2015</em>
         </p>
@@ -44,7 +44,7 @@ permalink: /author/
         </p>
       </div>
       <div class="package-snippet">
-        <h3 class="title"><a href="/package/">package_title</a></h3>
+        <h3 class="title"><a href="{{ "/package/" | prepend: site.baseurl }}">package_title</a></h3>
         <p class="meta">
           <em>Last updated on 12th December, 2015</em>
         </p>
@@ -53,7 +53,7 @@ permalink: /author/
         </p>
       </div>
       <div class="package-snippet">
-        <h3 class="title"><a href="/package/">package_title</a></h3>
+        <h3 class="title"><a href="{{ "/package/" | prepend: site.baseurl }}">package_title</a></h3>
         <p class="meta">
           <em>Last updated on 12th December, 2015</em>
         </p>
@@ -62,7 +62,7 @@ permalink: /author/
         </p>
       </div>
       <div class="package-snippet">
-        <h3 class="title"><a href="/package/">package_title</a></h3>
+        <h3 class="title"><a href="{{ "/package/" | prepend: site.baseurl }}">package_title</a></h3>
         <p class="meta">
           <em>Last updated on 12th December, 2015</em>
         </p>
@@ -71,7 +71,7 @@ permalink: /author/
         </p>
       </div>
       <div class="package-snippet">
-        <h3 class="title"><a href="/package/">package_title</a></h3>
+        <h3 class="title"><a href="{{ "/package/" | prepend: site.baseurl }}">package_title</a></h3>
         <p class="meta">
           <em>Last updated on 12th December, 2015</em>
         </p>
@@ -84,7 +84,7 @@ permalink: /author/
     <h3>One package maintained by Author Name</h3>
     <div class="package-list">
       <div class="package-snippet">
-        <h3 class="title"><a href="/package/">package_title</a></h3>
+        <h3 class="title"><a href="{{ "/package/" | prepend: site.baseurl }}">package_title</a></h3>
         <p class="meta">
           <em>Last updated on 12th December, 2015</em>
         </p>

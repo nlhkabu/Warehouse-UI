@@ -1,8 +1,8 @@
 <header class="site-header">
   <div class="container">
-    <a href="/"><img src="{{ "/img/pypi-sml.png" | prepend: site.baseurl }}" alt="PyPI logo" class="pypi-logo"/></a>
+    <a href="{{ site.baseurl }}"><img src="{{ "/img/pypi-sml.png" | prepend: site.baseurl }}" alt="PyPI logo" class="pypi-logo"/></a>
 
-    <form class="search" action="/packages/">
+    <form class="search" action="{{ "/packages/" | prepend: site.baseurl }}">
       <input type="text" placeholder="Search Packages">
       <input type="submit" name="name" value="Search" class="button dark-button">
     </form>

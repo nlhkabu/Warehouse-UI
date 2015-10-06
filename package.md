@@ -33,7 +33,7 @@ permalink: /package/
       <li><a href="#"><i class="fa fa-slack"></i>Slack</a></li>
       <li><a href="#"><i class="fa fa-external-link-square"></i>Another Link</a></li>
     </ul>
-    <p class="author-info">Last updated 10 months ago by <a href="/author/">Author Name <img src="http://placehold.it/40x40"></a></p>
+    <p class="author-info">Last updated 10 months ago by <a href="{{ "/author/" | prepend: site.baseurl }}">Author Name <img src="http://placehold.it/40x40"></a></p>
   </div>
 </section>
 <section>
@@ -53,10 +53,10 @@ permalink: /package/
 
   <div class="sidebar-section maintainers">
     <h3>Maintainers</h3>
-    <a href="/author/"><img src="http://placehold.it/50x50"></a>
-    <a href="/author/"><img src="http://placehold.it/50x50"></a>
-    <a href="/author/"><img src="http://placehold.it/50x50"></a>
-    <a href="/author/"><img src="http://placehold.it/50x50"></a>
+    <a href="{{ "/author/" | prepend: site.baseurl }}"><img src="http://placehold.it/50x50"></a>
+    <a href="{{ "/author/" | prepend: site.baseurl }}"><img src="http://placehold.it/50x50"></a>
+    <a href="{{ "/author/" | prepend: site.baseurl }}"><img src="http://placehold.it/50x50"></a>
+    <a href="{{ "/author/" | prepend: site.baseurl }}"><img src="http://placehold.it/50x50"></a>
   </div>
 
   <div class="sidebar-section meta">
@@ -98,36 +98,36 @@ permalink: /package/
     <p>Want more like this?</p>
     <p>The following packages might be of interest.  This list is dynamically generated based on package data including common dependencies, tags and trove classifiers.</p>
     <div class="package-snippet">
-      <h3 class="title"><a href="/package/">package_title</a></h3>
+      <h3 class="title"><a href="{{ "/package/" | prepend: site.baseurl }}">package_title</a></h3>
       <p class="meta">
-        <span class="version">v1.2</span> by <a href="/author/">Author Name</a>
+        <span class="version">v1.2</span> by <a href="{{ "/author/" | prepend: site.baseurl }}">Author Name</a>
       </p>
       <p class="description">
         This is the package description
       </p>
     </div>
     <div class="package-snippet">
-      <h3 class="title"><a href="/package/">package_title</a></h3>
+      <h3 class="title"><a href="{{ "/package/" | prepend: site.baseurl }}">package_title</a></h3>
       <p class="meta">
-        <span class="version">v1.2</span> by <a href="/author/">Author Name</a>
+        <span class="version">v1.2</span> by <a href="{{ "/author/" | prepend: site.baseurl }}">Author Name</a>
       </p>
       <p class="description">
         This is the package description
       </p>
     </div>
     <div class="package-snippet">
-      <h3 class="title"><a href="/package/">package_title</a></h3>
+      <h3 class="title"><a href="{{ "/package/" | prepend: site.baseurl }}">package_title</a></h3>
       <p class="meta">
-        <span class="version">v1.2</span> by <a href="/author/">Author Name</a>
+        <span class="version">v1.2</span> by <a href="{{ "/author/" | prepend: site.baseurl }}">Author Name</a>
       </p>
       <p class="description">
         This is the package description
       </p>
     </div>
     <div class="package-snippet">
-      <h3 class="title"><a href="/package/">package_title</a></h3>
+      <h3 class="title"><a href="{{ "/package/" | prepend: site.baseurl }}">package_title</a></h3>
       <p class="meta">
-        <span class="version">v1.2</span> by <a href="/author/">Author Name</a>
+        <span class="version">v1.2</span> by <a href="{{ "/author/" | prepend: site.baseurl }}">Author Name</a>
       </p>
       <p class="description">
         This is the package description
