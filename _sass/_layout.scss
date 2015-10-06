@@ -2,6 +2,18 @@
   @include span-columns(6);
 }
 
+.col-4 {
+  @include span-columns(4);
+}
+
+.col-7 {
+  @include span-columns(7);
+}
+
+.col-8 {
+  @include span-columns(8);
+}
+
 .intro {
   font-weight: 700;
   font-size: 20px;
