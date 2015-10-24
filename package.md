@@ -222,8 +222,8 @@ permalink: /package/
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+  </div>
 
   <a href="" class="js-vertical-tab-accordion-heading vertical-tab-accordion-heading" rel="tab4">Statistics</a>
   <div id="tab4" class="js-vertical-tab-content vertical-tab-content">
