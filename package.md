@@ -153,7 +153,7 @@ permalink: /package/
       </div>
 
       <div class="history-section current">
-        <div class="version">Version 3.1 <span class="highlight-badge">This package</span></div>
+        <div class="version">Version 3.1 <span class="highlight-badge">This version</span></div>
         <div class="graphic">
           <div class="line"></div>
           <img class="history-node" src="{{ "/img/white-cube-sml.png" | prepend: site.baseurl }}" alt="history node"/>
@@ -228,7 +228,22 @@ permalink: /package/
   <a href="" class="js-vertical-tab-accordion-heading vertical-tab-accordion-heading" rel="tab4">Statistics</a>
   <div id="tab4" class="js-vertical-tab-content vertical-tab-content">
     <h2>Download Statistics</h2>
-    <p>Basic download stats</p>
+    <div class="button-switch">
+      <a href="#" class="button highlight">All versions</a>
+      <a href="#" class="button">This version only (3.1)</a>
+    </div>
+
+    <div class="download-graph">
+      <div class="download-overview">
+        <p><strong>Today:</strong> 34</p>
+        <p><strong>This Week:</strong> 54</p>
+        <p><strong>This Month: </strong> 5,434</p>
+        <p><strong>This Year: </strong> 46,339</p>
+        <p><strong>All Time:</strong> 2,342,323</p>
+      </div>
+      <p>TODO: Bar chart here showing downloads over time</p>
+    </div>
+
   </div>
 
   <a href="" class="js-vertical-tab-accordion-heading vertical-tab-accordion-heading" rel="tab5">Files</a>

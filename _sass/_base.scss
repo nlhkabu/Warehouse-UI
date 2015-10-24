@@ -137,6 +137,18 @@ input.button {
   color: $text-color;
 }
 
+.button.highlight,
+input.button.highlight {
+  border-color: $brand-color;
+  background-color: $brand-color;
+  color: $white;
+
+  &:hover {
+    background-color: darken($brand-color, 2);
+    text-decoration-color: rgba(255,255,255, .2);
+  }
+}
+
 .button.dark,
 input.button.dark {
   border-color: #004168;
@@ -152,6 +164,29 @@ input.button.dark {
 .button.large {
   font-size: 20px;
   padding: 9px 15px;
+}
+
+.button-switch {
+  display: block;
+  margin: 15px 0 25px;
+  @include clearfix;
+
+  .button {
+    float: left;
+    border-radius: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+  }
+
+  .button:first-child {
+    border-radius: 3px 0 0 3px;
+    border-left-width: 2px;
+  }
+
+  .button:last-child {
+    border-radius: 0 3px 3px 0;
+    border-right-width: 2px;
+  }
 }
 
 /* Forms */
