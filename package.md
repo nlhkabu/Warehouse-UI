@@ -262,6 +262,20 @@ permalink: /package/
           <td>Oct 12, 2015</td>
           <td>py2</td>
         </tr>
+        <tr>
+          <td><a href="#">python_watcher_metering_drivers-0.20.1.0b0-py2-none-any.whl (md5) </a> (39KB)</td>
+          <td>460d464ccb8febd05d0ddbc960680f36<a class="md5-link" href="clicking-here-copies-md5"><i class="fa fa-copy"></i></a></td>
+          <td>Wheel</td>
+          <td>Oct 12, 2015</td>
+          <td>py2</td>
+        </tr>
+        <tr>
+          <td><a href="#">python_watcher_metering_drivers-0.20.1.0b0-py2-none-any.whl (md5) </a> (39KB)</td>
+          <td>460d464ccb8febd05d0ddbc960680f36<a class="md5-link" href="clicking-here-copies-md5"><i class="fa fa-copy"></i></a></td>
+          <td>Wheel</td>
+          <td>Oct 12, 2015</td>
+          <td>py2</td>
+        </tr>
       </tbody>
     </table>
   </div>

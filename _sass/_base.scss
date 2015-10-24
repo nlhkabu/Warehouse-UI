@@ -182,10 +182,23 @@ table {
   border: 0;
   font-size: 15px;
   width: 100%;
+  border-top: 1px solid #DFDFDF;
+  border-left: 1px solid #DFDFDF;
+  box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.05);
+
+  tr {
+    border-bottom: 1px solid #DFDFDF;
+  }
+
+  th, td {
+    margin: 0;
+    border: 0;
+    padding: 15px 10px;
+    border-right: 1px solid #ececec;
+  }
 
   thead tr {
-    background-color: $brand-color;
-    color: $white;
+    background-color: $white;
 
     th {
       vertical-align: bottom;
@@ -197,13 +210,12 @@ table {
     }
   }
 
-  tbody tr {
-    border-bottom: 2px solid #ececec;
-  }
-
-  th, td {
-    margin: 0;
-    border: 0;
-    padding: 15px 10px;
+  tbody {
+    tr {
+      background-color: darken($background-color, 1);
+    }
+    tr:nth-child(even) {
+      background-color: darken($background-color, 3);
+    }
   }
 }
