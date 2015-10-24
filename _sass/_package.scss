@@ -20,13 +20,29 @@
   }
 
   .pip-instructions {
-    font-family: monospace;
-    font-size: 22px;
     margin: 20px 0 10px 0;
-    display: inline-block;
-    background-color: rgba(0,0,0,.15);
-    padding: 10px;
-    border: 1px dotted rgba(255,255,255, 0.4);
+    @include clearfix;
+
+    span {
+      font-family: $code-font;
+      font-weight: 500;
+      font-size: 22px;
+      float: left;
+      background-color: rgba(0,0,0,.15);
+      padding: 10px;
+      border: 1px dotted rgba(255,255,255, 0.4);
+      line-height: 30px;
+    }
+
+    a {
+      line-height: 30px;
+      float: left;
+      padding: 10px 15px;
+      background-color: rgba(0,0,0,.15);
+      border-right: 1px dotted rgba(255,255,255, 0.4);
+      border-top: 1px dotted rgba(255,255,255, 0.4);
+      border-bottom: 1px dotted rgba(255,255,255, 0.4);
+    }
   }
 
   a {
@@ -160,10 +176,6 @@
   overflow: hidden;
   margin: 40px 0;
 
-  li {
-    list-style: none;
-  }
-
   .vertical-tabs {
     display: none;
     padding: 0 20px 0 0;
@@ -282,5 +294,75 @@
 
 p.tags {
   margin-bottom: 0;
+}
 
+// Changelog tab
+
+.history-section {
+  @include clearfix;
+  display: table;
+  width: 100%;
+
+  .version {
+    width: 15%;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 18px;
+    text-align: right;
+    font-weight: 600;
+  }
+
+  .graphic {
+    width: 10%;
+    display: table-cell;
+    background: url('../img/history-line.png') repeat-y 50% 50%;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .changelog {
+    width: 75%;
+    display: table-cell;
+
+    .card {
+      background-color: #f5f5f5;
+      border: 1px solid darken(#ececec, 5);
+      padding: 15px 15px 0 15px;
+      margin: 15px 0;
+      font-size: 15px;
+    }
+  }
+}
+
+.history-section.current .changelog .card {
+  background-color: $white;
+  box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.05);
+}
+
+// Downloads tab
+.package-downloads {
+  box-sizing: border-box;
+  table-layout: fixed;
+  word-wrap: break-word;
+
+  .filename {
+    width: 40%;
+  }
+
+  .checksum {
+    width: 25%;
+  }
+
+  .type,
+  .upload-date {
+    width: 13%;
+  }
+
+  .version {
+    width: 9%;
+  }
+
+  .md5-link {
+    margin-left: 5px;
+  }
 }

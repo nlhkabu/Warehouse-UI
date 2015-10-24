@@ -62,6 +62,10 @@ figcaption {
 /**
  * Lists
  */
+ul {
+  list-style-type: circle;
+}
+
 ul, ol {
     margin-left: $spacing-unit;
 }
@@ -94,7 +98,7 @@ h2 {
 
 p.subtitle {
   font-style: italic;
-  margin: -15px 0 15px 0;
+  margin: -15px 0 10px 0;
 }
 
 a {
@@ -104,14 +108,99 @@ a {
 
 strong {
   font-weight: 600;
-
 }
 
 ::selection {
-  color: #004168;
-  background: #FFD343; /* WebKit/Blink Browsers */
+  color: darken($brand-color, 15);
+  background: $highlight-color; /* WebKit/Blink Browsers */
 }
+
 ::-moz-selection {
-  color: #004168;
-  background: #FFD343; /* Gecko Browsers */
+  color: darken($brand-color, 15);
+  background: $highlight-color; /* Gecko Browsers */
+}
+
+/* Buttons */
+
+.button,
+input.button {
+  cursor: pointer;
+  text-decoration: none;
+  font-stretch: expanded;
+  padding: 6px 15px;
+  border: 2px solid #dadada;
+  border-radius: 3px;
+  display: inline-block;
+  color: $text-color;
+}
+
+.button.dark,
+input.button.dark {
+  border-color: #004168;
+  background-color: #004168;
+  color: $white;
+
+  &:hover {
+    background-color: darken(#004168, 2);
+    text-decoration-color: rgba(255,255,255, .2);
+  }
+}
+
+.button.large {
+  font-size: 20px;
+  padding: 9px 15px;
+}
+
+/* Forms */
+
+input,
+select {
+  border-radius: 3px;
+  box-sizing: border-box;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  background-color: $white;
+  border: 1px solid #ddd;
+  padding: 8px;
+  color: #464646;
+}
+
+select {
+  padding: 7px 5px;
+}
+
+/* Tables */
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  text-align: left;
+  margin-top: 25px;
+  border: 0;
+  font-size: 15px;
+  width: 100%;
+
+  thead tr {
+    background-color: $brand-color;
+    color: $white;
+
+    th {
+      vertical-align: bottom;
+      font-weight: 600;
+
+      a {
+        color: $white;
+      }
+    }
+  }
+
+  tbody tr {
+    border-bottom: 2px solid #ececec;
+  }
+
+  th, td {
+    margin: 0;
+    border: 0;
+    padding: 15px 10px;
+  }
 }

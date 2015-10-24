@@ -68,8 +68,9 @@
     font-size: 0.9em;
     line-height: 1.5em;
     margin: auto;
-    max-width: 35em;
+    max-width: 40em;
     text-align: center;
+    padding: 0 20px;
 
     a {
       color: transparentize($white, .5);
@@ -90,13 +91,12 @@
   .sponsor {
     display: inline-block;
     text-align: center;
-    margin: 10px 13px 0 13px;
+    margin: 15px 13px 10px 13px;
     opacity: 0.6;
 
     span {
       max-width: 100px;
       display: block;
-      margin: 5px 0;
       font-size: 13px;
       color: $white;
     }
@@ -105,6 +105,14 @@
       max-height: 40px;
     }
 
+    span.provider {
+      font-weight: 600;
+      margin-top: 10px;
+    }
+
+    span.service {
+      font-style: italic;
+    }
 
     &:hover {
       opacity: 1;

@@ -10,17 +10,20 @@ $base-font-size:   17px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.4;
 
+$code-font: 'Source Code Pro', monospace;
 $spacing-unit:     30px;
 
 $text-color:       #464646;
 $background-color: #fdfdfd;
 $brand-color:      #006dad;
 $white: #fff;
+$highlight-color: #FFD343;
 
 @import
         "bourbon/bourbon", // provides a range of SASS mixins to utilise in our custom code
         "neat/neat", // semantic grid for the win!
         "base",
+        "grid",
         "layout",
         "header",
         "footer",

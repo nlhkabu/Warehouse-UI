@@ -1,18 +1,4 @@
-.col-6 {
-  @include span-columns(6);
-}
 
-.col-4 {
-  @include span-columns(4);
-}
-
-.col-7 {
-  @include span-columns(7);
-}
-
-.col-8 {
-  @include span-columns(8);
-}
 
 .intro {
   font-weight: 700;
@@ -26,14 +12,15 @@ section.content {
 }
 
 .package-list {
-  margin-bottom: 40px;
+  padding-top: 5px;
+  margin-bottom:40px;
 }
 
 .package-snippet {
   border: 1px solid darken(#ececec, 5);
   box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.05);
   padding: 15px 20px 15px 80px;
-  margin-top: 20px;
+  margin: 10px 0 20px;
   background: $white url('../img/white-cube.png') no-repeat 0 50%;
   background-position: 20px;
 
@@ -57,52 +44,6 @@ section.content {
     margin-bottom: 0;
     font-style: italic;
     font-size: 16px;
-  }
-}
-
-
-.container {
-  @include outer-container;
-
-  @media screen and (max-width: 1200px) {
-    padding: 0 20px;
-  }
-
-}
-
-input {
-  border: 0;
-  border-radius: 3px;
-  box-sizing: border-box;
-  font-size: $base-font-size;
-}
-
-.button,
-input.button {
-  cursor: pointer;
-  text-decoration: none;
-  font-stretch: expanded;
-  padding: 10px 15px;
-  border: 2px solid #dadada;
-  border-radius: 3px;
-  display: inline-block;
-  color: $text-color;
-
-  &:hover {
-    text-decoration: underline;
-    text-decoration-color: rgba(0,0,0, .2);
-  }
-}
-
-.dark-button,
-input.dark-button {
-  border-color: #004168;
-  background-color: #004168;
-  color: $white;
-
-  &:hover {
-    background-color: darken(#004168, .8);
-    text-decoration-color: rgba(255,255,255, .2);
   }
 }
 

@@ -10,8 +10,8 @@ permalink: /author/
     <div class="author-meta">
       <h1>Author Name or Username <span class="prolific">Prolific Pythonista</span></h1>
       <p class="dates">
-        <span class="joined">Joined PyPI on 1st September, 2011.</span>
-        Last seen on 12th December, 2015.
+        <span class="joined">Joined PyPI on Sept 22, 2011</span>
+        Last seen on Dec 12, 2015
       </p>
       <div class="bio">
         <p>This person has written a short bio, which we will need to add to the User model and display here.</p>

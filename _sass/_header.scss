@@ -8,20 +8,20 @@
   .pypi-logo {
     padding: 15px 0;
     max-width: 65px;
+    float: left;
   }
 
   .search {
-    display: inline-block;
-    margin-left: 50px;
+    float: left;
+    margin: 25px 0 0 50px;
 
     input {
-      padding: 5px 10px;
-      margin-bottom: 10px;
       display: inline-block;
     }
 
     input[type=text]{
       width: 400px;
+      margin-right: 5px;
     }
   }
 
