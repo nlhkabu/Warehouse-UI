@@ -247,10 +247,10 @@ table {
 
   tbody {
     tr {
-      background-color: darken($background-color, 1);
+      background-color: darken($background-color, .75);
     }
     tr:nth-child(even) {
-      background-color: darken($background-color, 3);
+      background-color: darken($background-color, 2);
     }
   }
 }
