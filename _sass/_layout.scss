@@ -1,7 +1,7 @@
 
 
 .intro {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 20px;
   color: lighten($text-color, 10);
 }
@@ -53,14 +53,12 @@ section.grey {
   border-top: 1px solid #dedede;
 }
 
-section.statistics {
-  text-align: center;
-
-  p {
-    color: #004168;
-    font-size: 20px;
-    display: inline-block;
-    padding: 20px;
-    margin: 0;
-  }
+.highlight-badge {
+  font-size: 14px;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: darken($highlight-color, 50);
+  background: $highlight-color;
+  padding: 2px 7px;
+  border-radius: 3px;
 }

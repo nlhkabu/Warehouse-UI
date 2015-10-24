@@ -131,53 +131,99 @@ permalink: /package/
 
   <a href="" class="js-vertical-tab-accordion-heading vertical-tab-accordion-heading" rel="tab3">History</a>
   <div id="tab3" class="js-vertical-tab-content vertical-tab-content">
-    <h2>Version History &amp; Changelog</h2>
+    <h2 class="history">Version History &amp; Changelog</h2>
+    <a href="#" class="button toggle">Expand All</a><!-- clicking here the text changes to 'Collapse All' -->
 
-    <div class="history-section">
-      <div class="version"><a href="#">Version 3.2</a></div>
-      <div class="graphic"><img src="{{ "/img/history-circle.png" | prepend: site.baseurl }}" alt="history node"/></div>
-      <div class="changelog">
-        <div class="card">
-          <p>Changelog content for this version goes here.</p>
+    <section class="version-history-graphic">
+      <div class="history-section latest">
+        <div class="version"><a href="#">Version 3.2</a></div>
+        <div class="graphic">
+          <div class="line"></div>
+          <img class="history-node" src="{{ "/img/blue-cube-sml.png" | prepend: site.baseurl }}" alt="history node"/>
+        </div>
+        <div class="changelog">
+          <div class="card">
+            <p>Changelog content for this version goes here.</p>
 
-          <p>Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur. Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur. Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
-          <p><a href="clicking-here-expands-changelog"><i class="fa fa-plus-square-o"></i> Show More</a></p>
+            <p><a href="clicking-here-expands-changelog"><i class="fa fa-plus-square-o"></i> Show More</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="history-section current">
+        <div class="version">Version 3.1 <span class="highlight-badge">This package</span></div>
+        <div class="graphic">
+          <div class="line"></div>
+          <img class="history-node" src="{{ "/img/white-cube-sml.png" | prepend: site.baseurl }}" alt="history node"/>
+        </div>
+        <div class="changelog">
+          <div class="card">
+            <h3>Title</h3>
+            <p>Changelog content for this version goes here.</p>
+            <ul>
+              <li>thing</li>
+              <li>thing</li>
+            </ul>
+            <p><a href="clicking-here-expands-changelog"><i class="fa fa-plus-square-o"></i> Show More</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="history-section">
+        <div class="version"><a href="#">Version 3.0</a></div>
+        <div class="graphic">
+          <div class="line"></div>
+          <img class="history-node" src="{{ "/img/blue-cube-sml.png" | prepend: site.baseurl }}" alt="history node"/>
+        </div>
+        <div class="changelog">
+          <div class="card">
+            <p>Changelog content for this version goes here.</p>
+
+            <p>Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur. Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+            <p><a href="clicking-here-expands-changelog"><i class="fa fa-plus-square-o"></i> Show More</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="history-section">
+        <div class="version"><a href="#">Version 2.9</a></div>
+        <div class="graphic">
+          <div class="line"></div>
+          <img class="history-node" src="{{ "/img/blue-cube-sml.png" | prepend: site.baseurl }}" alt="history node"/>
+        </div>
+        <div class="changelog">
+          <div class="card">
+            <p>Changelog content for this version goes here.</p>
+
+            <p>Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur. Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+            <p><a href="clicking-here-expands-changelog"><i class="fa fa-plus-square-o"></i> Show More</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="history-section oldest">
+        <div class="version"><a href="#">Version 2.8</a></div>
+        <div class="graphic">
+          <div class="line"></div>
+          <img class="history-node" src="{{ "/img/blue-cube-sml.png" | prepend: site.baseurl }}" alt="history node"/>
+        </div>
+        <div class="changelog">
+          <div class="card">
+            <p>Changelog content for this version goes here.</p>
+            <ul>
+              <li>thing</li>
+              <li>thing</li>
+            </ul>
+            <p><a href="clicking-here-expands-changelog"><i class="fa fa-plus-square-o"></i> Show More</a></p>
+          </div>
         </div>
       </div>
     </div>
-
-    <div class="history-section current">
-      <div class="version">Version 3.1</div>
-      <div class="graphic"><img src="{{ "/img/history-circle-current.png" | prepend: site.baseurl }}" alt="history node"/></div>
-      <div class="changelog">
-        <div class="card">
-          <h3>Title</h3>
-          <p>Changelog content for this version goes here.</p>
-          <ul>
-            <li>thing</li>
-            <li>thing</li>
-          </ul>
-          <p><a href="clicking-here-expands-changelog"><i class="fa fa-plus-square-o"></i> Show More</a></p>
-        </div>
-      </div>
-    </div>
-
-    <div class="history-section">
-      <div class="version"><a href="#">Version 3.0</a></div>
-      <div class="graphic"><img src="{{ "/img/history-circle.png" | prepend: site.baseurl }}" alt="history node"/></div>
-      <div class="changelog">
-        <div class="card">
-          <p>Changelog content for this version goes here.</p>
-          <ul>
-            <li>thing</li>
-            <li>thing</li>
-          </ul>
-          <p><a href="clicking-here-expands-changelog"><i class="fa fa-plus-square-o"></i> Show More</a></p>
-        </div>
-      </div>
-    </div>
-  </div>
+  </section>
 
   <a href="" class="js-vertical-tab-accordion-heading vertical-tab-accordion-heading" rel="tab4">Statistics</a>
   <div id="tab4" class="js-vertical-tab-content vertical-tab-content">

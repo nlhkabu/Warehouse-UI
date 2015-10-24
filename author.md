@@ -8,7 +8,7 @@ permalink: /author/
   <div class="container">
     <img src="http://placehold.it/100x100">
     <div class="author-meta">
-      <h1>Author Name or Username <span class="prolific">Prolific Pythonista</span></h1>
+      <h1>Author Name or Username <span class="highlight-badge">Prolific Pythonista</span></h1>
       <p class="dates">
         <span class="joined">Joined PyPI on Sept 22, 2011</span>
         Last seen on Dec 12, 2015

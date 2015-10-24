@@ -124,6 +124,9 @@ strong {
 
 .button,
 input.button {
+  font-size: 16px;
+  font-weight: normal;
+  color: lighten($text-color, 10);
   cursor: pointer;
   text-decoration: none;
   font-stretch: expanded;

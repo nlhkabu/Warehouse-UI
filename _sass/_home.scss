@@ -44,6 +44,17 @@
   }
 }
 
+section.statistics {
+  text-align: center;
+
+  p {
+    color: darken($brand-color, 15);
+    font-size: 20px;
+    display: inline-block;
+    padding: 20px;
+    margin: 0;
+  }
+}
 
 .about-pypi {
   display: table;
