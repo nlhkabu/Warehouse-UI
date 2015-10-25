@@ -16,7 +16,8 @@
     margin: 25px 0 0 50px;
 
     input {
-      display: inline-block;
+      display: inline;
+      float: left;
     }
 
     input[type=text]{

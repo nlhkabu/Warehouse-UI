@@ -120,9 +120,14 @@
   border-top: 0;
   padding: 10px 0;
 
+  .link-container {
+    display: table;
+    width: 100%;
+  }
+
   ul {
     list-style-type: none;
-    float: left;
+    display: table-cell;
     margin: 0;
 
     li {
@@ -140,7 +145,7 @@
 
   .author-info {
     text-align: right;
-    float: right;
+    display: table-cell;
     margin: 0;
     font-size: 16px;
     font-style: italic;

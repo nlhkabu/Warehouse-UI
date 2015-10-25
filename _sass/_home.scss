@@ -5,35 +5,59 @@
   text-align: center;
   padding: 60px 0;
 
+  @media only screen and (max-width: 400px){
+     padding: 30px 0;
+  }
+
   h1 {
     max-width: 810px;
     margin: 0 auto;
     padding: 0 20px 40px 20px;
     font-size: 40px;
     line-height: 50px;
+
+    @media only screen and (max-width: 800px){
+       font-size: 35px;
+       line-height: 45px;
+    }
+
+    @media only screen and (max-width: 400px){
+       font-size: 30px;
+       line-height: 40px;
+       padding: 0 10px 30px 10px;
+    }
   }
 
   .search {
     input[type=text] {
       font-size: 22px;
       padding: 9px 10px;
-      margin-bottom: 10px;
+      margin: 0 3px 10px 0;
       display: inline-block;
       width: 600px;
-      max-width: 100%;
-      @media screen and (min-width: 739px) {
-        margin-right: 5px;
+      max-width: 70%;
+      box-sizing: border-box;
+
+      @media only screen and (max-width: 400px){
+         max-width: 100%;
+         margin-right: 0;
       }
     }
 
     .button {
       position: relative;
       top: -1px;
+      max-width: 30%;
+      box-sizing: border-box;
+
+      @media only screen and (max-width: 400px){
+         max-width: 100%;
+      }
     }
   }
 
   .browse {
-    margin-top: 20px;
+    margin: 20px 0 10px 0;
     font-size: 22px;
 
     a {
@@ -46,33 +70,68 @@
 
 section.statistics {
   text-align: center;
+  padding: 10px 0;
+
+  @media only screen and (max-width: 400px){
+     display: none;
+  }
 
   p {
     color: darken($brand-color, 15);
     font-size: 20px;
     display: inline-block;
-    padding: 20px;
+    padding: 10px 20px;
     margin: 0;
+    box-sizing: border-box;
+
+    @media only screen and (max-width: 800px){
+       font-size: 18px;
+    }
   }
 }
 
 .about-pypi {
   display: table;
+  max-width: 1000px;
+  margin: 0 auto;
 
-  .col-7,
-  .col-4 {
+  .large-logo,
+  .about-text {
     display: table-cell;
     vertical-align: middle;
     float: none;
+
+    @media only screen and (max-width: 550px){
+       display: block;
+       width: 100%;
+    }
+
+    @media only screen and (max-width: 550px){
+      margin-bottom: -10px;
+    }
   }
 
-  .col-4 {
+  .large-logo {
     text-align: right;
+
+    @media only screen and (max-width: 550px){
+      display: none;
+    }
 
     img {
       width: 220px;
       max-width: 100%;
       margin: -15px 50px 0 0;
+
+      @media only screen and (max-width: 800px){
+         margin-right: 20px;
+      }
     }
+  }
+}
+
+@media only screen and (max-width: 800px){
+  .top-packages {
+    margin-bottom: 40px;
   }
 }

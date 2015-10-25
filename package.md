@@ -28,14 +28,16 @@ permalink: /package/
 </section>
 <section class="package-links grey">
   <div class="container">
-    <ul>
-      <li><a href="#"><i class="fa fa-home"></i>Homepage</a></li>
-      <li><a href="#"><i class="fa fa-github"></i>Source Code</a></li>
-      <li><a href="#"><i class="fa fa-book"></i>Documentation</a></li>
-      <li><a href="#"><i class="fa fa-slack"></i>Slack</a></li>
-      <li><a href="#"><i class="fa fa-external-link-square"></i>Another Link</a></li>
-    </ul>
-    <p class="author-info">Last updated 10 months ago by <a href="{{ "/author/" | prepend: site.baseurl }}">Author Name <img src="http://placehold.it/40x40"></a></p>
+    <div class="link-container">
+      <ul>
+        <li><a href="#"><i class="fa fa-home"></i>Homepage</a></li>
+        <li><a href="#"><i class="fa fa-github"></i>Source Code</a></li>
+        <li><a href="#"><i class="fa fa-book"></i>Documentation</a></li>
+        <li><a href="#"><i class="fa fa-slack"></i>Slack</a></li>
+        <li><a href="#"><i class="fa fa-external-link-square"></i>Another Link</a></li>
+      </ul>
+      <p class="author-info">Last updated 10 months ago by <a href="{{ "/author/" | prepend: site.baseurl }}">Author Name <img src="http://placehold.it/40x40"></a></p>
+    </div>
   </div>
 </section>
 <section>
