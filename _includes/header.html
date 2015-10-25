@@ -14,3 +14,10 @@
     </nav>
   </div>
 </header>
+
+<section class="mobile-search">
+  <form class="search" action="{{ "/packages/" | prepend: site.baseurl }}">
+    <input type="text" placeholder="Search Packages">
+    <input type="submit" name="name" value="Search" class="button dark">
+  </form>
+</section>

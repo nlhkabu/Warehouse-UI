@@ -9,20 +9,26 @@
     padding: 15px 0;
     max-width: 65px;
     float: left;
+
+    @media screen and (max-width: 400px) {
+      max-width: 50px;
+    }
   }
 
   .search {
     float: left;
     margin: 25px 0 0 50px;
 
-    input {
-      display: inline;
-      float: left;
+    @media screen and (max-width: 900px) {
+      display: none;
     }
 
     input[type=text]{
+      display: inline;
+      float: left;
       width: 400px;
       margin-right: 5px;
+      border-color: darken($brand-color, 5);
     }
   }
 
@@ -35,10 +41,40 @@
       display: inline-block;
       padding: 30px 15px;
 
+      @media only screen and (max-width: 400px){
+        padding: 25px 10px;
+      }
+
       &:hover {
         text-decoration: underline;
         text-decoration-color: rgba(255,255,255, 0.4);
       }
     }
+  }
+}
+
+section.mobile-search {
+  display: none;
+  padding: 10px;
+  background-color: darken($brand-color, 5);
+
+  .search {
+    @include clearfix;
+
+    input[type=text] {
+      width: 79%;
+      margin: 0;
+      float: left;
+      border-color: darken($brand-color, 5);
+    }
+
+    .button {
+      width: 20%;
+      float: right;
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    display: block;
   }
 }

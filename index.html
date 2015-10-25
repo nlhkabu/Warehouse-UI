@@ -8,7 +8,8 @@ layout: home
 
     <form class="search" action="{{ "/packages/" | prepend: site.baseurl }}">
       <input type="text" placeholder="Search Packages">
-      <input type="submit" name="name" value="Search" class="button dark large">
+      <button class="button dark large desktop-search">Search</button>
+      <button class="button dark large mobile-search"><i class="fa fa-search"></i></button>
     </form>
 
     <p class="browse">Or <a href="{{ "/packages/" | prepend: site.baseurl }}">browse packages</a></p>
@@ -59,9 +60,9 @@ layout: home
           </p>
         </div>
         <div class="package-snippet">
-          <h3 class="title"><a href="{{ "/package/" | prepend: site.baseurl }}">package_title</a></h3>
+          <h3 class="title"><a href="{{ "/package/" | prepend: site.baseurl }}">package_title_that_is_really_really_really_long</a></h3>
           <p class="meta">
-            <span class="version">v1.2</span> by <a href="{{ "/author/" | prepend: site.baseurl }}">Author Name</a>
+            <span class="version">v1.2</span> by <a href="{{ "/author/" | prepend: site.baseurl }}">Author Name</a>, <a href="{{ "/author/" | prepend: site.baseurl }}">Another Author Name</a> and <a href="{{ "/author/" | prepend: site.baseurl }}">Author Name</a>
           </p>
           <p class="description">
             Some description of the package goes right here.

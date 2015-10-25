@@ -16,8 +16,9 @@ $spacing-unit:     30px;
 $text-color:       #464646;
 $background-color: #fdfdfd;
 $brand-color:      #006dad;
-$white: #fff;
-$highlight-color: #FFD343;
+$white:            #fff;
+$base-grey:        #ececec;
+$highlight-color:  #ffd343;
 
 @import
         "bourbon/bourbon", // provides a range of SASS mixins to utilise in our custom code

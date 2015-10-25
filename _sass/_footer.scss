@@ -5,9 +5,6 @@
 .footer {
   $base-spacing: 1.5em !default;
   $action-color: #477DCA !default;
-  $medium-screen: em(640) !default;
-  $large-screen: em(860) !default;
-  $footer-color: white;
   $footer-link-color: transparentize($white, 0.3);
   $footer-disclaimer-color: transparentize($white, 0.3);
 
@@ -45,12 +42,12 @@
 
         &:focus,
         &:hover {
-          color: transparentize($footer-color, 0);
+          color: transparentize($white, 0);
         }
       }
 
       h3 {
-        color: $footer-color;
+        color: $white;
         font-size: 1em;
         margin-bottom: 0.4em;
       }

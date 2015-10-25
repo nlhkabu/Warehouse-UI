@@ -104,6 +104,10 @@ p.subtitle {
 a {
   color: $brand-color;
   text-decoration: none;
+
+  &:hover {
+    color: darken($brand-color, 15);
+  }
 }
 
 strong {
@@ -152,13 +156,13 @@ input.button.highlight {
 
 .button.dark,
 input.button.dark {
-  border-color: #004168;
-  background-color: #004168;
+  border-color: darken($brand-color, 16);
+  background-color: darken($brand-color, 15);
   color: $white;
 
   &:hover {
-    background-color: darken(#004168, 2);
-    text-decoration-color: rgba(255,255,255, .2);
+    border-color: darken($brand-color, 21);
+    background-color: darken($brand-color, 20);
   }
 }
 

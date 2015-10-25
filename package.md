@@ -138,7 +138,9 @@ permalink: /package/
 
     <section class="version-history-graphic">
       <div class="history-section latest">
-        <div class="version"><a href="#">Version 3.2</a></div>
+        <div class="version">
+          <p><a href="#">Version 3.2</a></p>
+        </div>
         <div class="graphic">
           <div class="line"></div>
           <img class="history-node" src="{{ "/img/blue-cube-sml.png" | prepend: site.baseurl }}" alt="history node"/>
@@ -155,7 +157,10 @@ permalink: /package/
       </div>
 
       <div class="history-section current">
-        <div class="version">Version 3.1 <span class="highlight-badge">This version</span></div>
+        <div class="version">
+          <p>Version 3.1</p>
+          <span class="highlight-badge">This version</span>
+        </div>
         <div class="graphic">
           <div class="line"></div>
           <img class="history-node" src="{{ "/img/white-cube-sml.png" | prepend: site.baseurl }}" alt="history node"/>
@@ -174,7 +179,9 @@ permalink: /package/
       </div>
 
       <div class="history-section">
-        <div class="version"><a href="#">Version 3.0</a></div>
+        <div class="version">
+          <p><a href="#">Version 3.0</a></p>
+        </div>
         <div class="graphic">
           <div class="line"></div>
           <img class="history-node" src="{{ "/img/blue-cube-sml.png" | prepend: site.baseurl }}" alt="history node"/>
@@ -191,7 +198,9 @@ permalink: /package/
       </div>
 
       <div class="history-section">
-        <div class="version"><a href="#">Version 2.9</a></div>
+        <div class="version">
+          <p><a href="#">Version 2.9</a></p>
+        </div>
         <div class="graphic">
           <div class="line"></div>
           <img class="history-node" src="{{ "/img/blue-cube-sml.png" | prepend: site.baseurl }}" alt="history node"/>
@@ -208,7 +217,9 @@ permalink: /package/
       </div>
 
       <div class="history-section oldest">
-        <div class="version"><a href="#">Version 2.8</a></div>
+        <div class="version">
+          <p><a href="#">Version 2.8</a></p>
+        </div>
         <div class="graphic">
           <div class="line"></div>
           <img class="history-node" src="{{ "/img/blue-cube-sml.png" | prepend: site.baseurl }}" alt="history node"/>
@@ -297,7 +308,7 @@ permalink: /package/
     </table>
   </div>
 
-  <a href="" class="js-vertical-tab-accordion-heading vertical-tab-accordion-heading" rel="tab6">Simmilar Packages</a>
+  <a href="" class="js-vertical-tab-accordion-heading vertical-tab-accordion-heading" rel="tab6">Similar Packages</a>
   <div id="tab6" class="js-vertical-tab-content vertical-tab-content">
     <h2>Similar Packages</h2>
     <p>Want to see more like this? You might also be interested in the following packages. This list is dynamically generated based on package data including common dependencies, tags and trove classifiers.</p>

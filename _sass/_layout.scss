@@ -31,14 +31,17 @@ section.content {
   background: $white url('../img/white-cube.png') no-repeat 0 50%;
   background-position: 20px;
 
+  @media screen and (max-width: 400px) {
+    margin: 5px 0 15px 0;
+  }
+
   .title {
-    float: left;
-    margin-bottom: 3px;
+    margin-bottom: 0;
+    word-wrap: break-word;
   }
 
   .meta {
-    float: right;
-    margin: 3px 0 0 0;
+    margin: 1px 0 2px;
     font-size: 16px;
 
     .version {
