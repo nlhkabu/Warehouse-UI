@@ -4,7 +4,7 @@
 
     <form class="search" action="{{ "/packages/" | prepend: site.baseurl }}">
       <input type="text" placeholder="Search Packages">
-      <input type="submit" name="name" value="Search" class="button dark">
+      <button class="button dark">Search</button>
     </form>
 
     <nav>
@@ -18,6 +18,6 @@
 <section class="mobile-search">
   <form class="search" action="{{ "/packages/" | prepend: site.baseurl }}">
     <input type="text" placeholder="Search Packages">
-    <input type="submit" name="name" value="Search" class="button dark">
+    <button class="button dark"><span>Search</span><i class="fa fa-search"></i></button>
   </form>
 </section>

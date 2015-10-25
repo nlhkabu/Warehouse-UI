@@ -23,7 +23,7 @@
 
     @media only screen and (max-width: 400px){
        font-size: 30px;
-       line-height: 40px;
+       line-height: 35px;
        padding: 0 10px 30px 10px;
     }
   }
@@ -51,17 +51,20 @@
       box-sizing: border-box;
     }
 
-    .button.mobile-search {
+    .button i.fa {
       display: none;
     }
 
     @media only screen and (max-width: 400px){
-       .button.mobile-search {
-         display: inline-block;
+       .button {
          padding: 9px;
+
+         i.fa {
+           display: inline-block;
+         }
        }
 
-       .button.desktop-search {
+       .button span {
          display: none;
        }
     }

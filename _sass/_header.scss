@@ -71,6 +71,21 @@ section.mobile-search {
     .button {
       width: 20%;
       float: right;
+
+      i.fa {
+        display: none;
+      }
+
+      @media only screen and (max-width: 450px){
+        span {
+          display: none;
+        }
+
+        i.fa {
+          display: block;
+          line-height: 24px;
+        }
+      }
     }
   }
 

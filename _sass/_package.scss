@@ -5,23 +5,50 @@
   color: $white;
   padding: 60px 0;
 
+  @media only screen and (max-width: 400px){
+     padding: 30px 0;
+  }
+
   h1 {
     font-size: 40px;
     line-height: 45px;
+
+    @media only screen and (max-width: 800px){
+       font-size: 35px;
+       line-height: 45px;
+    }
+
+    @media only screen and (max-width: 400px){
+       font-size: 30px;
+       line-height: 35px;
+    }
   }
 
   .description {
     font-size: 22px;
     font-style: italic;
+
+    @media only screen and (max-width: 800px){
+       font-size: 19px;
+    }
+
+    @media only screen and (max-width: 400px){
+       font-size: 17px;
+    }
   }
 
   .license {
     float: right;
+
+    @media only screen and (max-width: 800px){
+       float: none;
+       margin-bottom: 10px;
+    }
   }
 
   .pip-instructions {
-    margin: 20px 0 10px 0;
     @include clearfix;
+    margin: 20px 0 5px 0;
 
     span {
       font-family: $code-font;
@@ -32,6 +59,17 @@
       padding: 10px;
       border: 1px dotted rgba(255,255,255, 0.4);
       line-height: 30px;
+      margin-bottom: 5px;
+
+      @media only screen and (max-width: 800px){
+         font-size: 20px;
+         line-height: 25px;
+      }
+
+      @media only screen and (max-width: 400px){
+         font-size: 18px;
+         line-height: 22px;
+      }
     }
 
     a {
@@ -42,6 +80,16 @@
       border-right: 1px dotted rgba(255,255,255, 0.4);
       border-top: 1px dotted rgba(255,255,255, 0.4);
       border-bottom: 1px dotted rgba(255,255,255, 0.4);
+      margin-bottom: 5px;
+
+      @media only screen and (max-width: 800px){
+         line-height: 25px;
+         padding: 10px;
+      }
+
+      @media only screen and (max-width: 400px){
+         line-height: 22px;
+      }
     }
   }
 
