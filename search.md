@@ -7,13 +7,19 @@ permalink: /packages/
 <section class="order-results">
   <p class="description"><strong>34,503</strong> packages matching '<em>search term</em>'</p>
   <p class="order">
-    Order packages by
+    <span>Order packages by</span>
     <select>
       <option>Relevance</option>
       <option>Date Last Updated</option>
     </select>
   </p>
 </section>
+
+<div class="applied-filters">
+  <span class="filter"><i class="fa fa-filter"></i>Framework :: Django <a href="#"><i class="fa fa-close"></i></a></span>
+  <span class="filter"><i class="fa fa-filter"></i>Topic :: Communications <a href="#"><i class="fa fa-close"></i></a></span>
+  <a href="#" class="add-filter button small">Add Filter</a>
+</div>
 
 <section>
   <div class="package-list">

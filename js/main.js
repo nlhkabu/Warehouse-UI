@@ -38,4 +38,17 @@ $(document).ready(function() {
     $(".js-vertical-tab[rel^='"+accordion_activeTab+"']").addClass("is-active");
   });
 
+  // Launch filter popover on mobile
+  $('body').on('click', '.add-filter', function(e){
+    e.preventDefault();
+    $('.overlay').show();
+    $('.filter-packages').show();
+  });
+
+  $('body').on('click', '.close-panel', function(e){
+    e.preventDefault();
+    $('.overlay').hide();
+    $('.filter-packages').hide();
+  });
+
 });

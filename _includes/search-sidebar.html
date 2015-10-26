@@ -1,813 +1,806 @@
-<aside class="filter-results">
+<aside class="filter-packages">
+  <a class="close-panel" href="#"><i class="fa fa-close"></i></a>
   <h2>Filter Packages</h2>
+  <div class="expander">
+    <a href="javascript:void(0)" class="expander-trigger expander-hidden">By Development Status</a>
+    <div class="expander-content">
+        <label><input type="checkbox"/><span>1 - Planning</span></label>
+        <label><input type="checkbox"/><span>2 - Pre-Alpha</span></label>
+        <label><input type="checkbox"/><span>3 - Alpha</span></label>
+        <label><input type="checkbox"/><span>4 - Beta</span></label>
+        <label><input type="checkbox"/><span>5 - Production/Stable</span></label>
+        <label><input type="checkbox"/><span>6 - Mature</span></label>
+        <label><input type="checkbox"/><span>7 - Inactive</span></label>
+    </div>
 
-  <div class="applied-filters">
-    <span class="filter">Framework :: Django <a href="#"><i class="fa fa-close"></i></a></span>
-    <span class="filter">Topic :: Communications <a href="#"><i class="fa fa-close"></i></a></span>
-  </div>
-
-  <div class="available-filters">
-    <div class="expander">
-      <a href="javascript:void(0)" class="expander-trigger expander-hidden">By Development Status</a>
-      <div class="expander-content">
-          <label><input type="checkbox"/><span>1 - Planning</span></label>
-          <label><input type="checkbox"/><span>2 - Pre-Alpha</span></label>
-          <label><input type="checkbox"/><span>3 - Alpha</span></label>
-          <label><input type="checkbox"/><span>4 - Beta</span></label>
-          <label><input type="checkbox"/><span>5 - Production/Stable</span></label>
-          <label><input type="checkbox"/><span>6 - Mature</span></label>
-          <label><input type="checkbox"/><span>7 - Inactive</span></label>
+    <a href="javascript:void(0)" class="expander-trigger expander-hidden">By Environment</a>
+    <div class="expander-content">
+      <label><input type="checkbox"/><span>Console</span></label>
+      <div class="child-category">
+        <label><input type="checkbox"/><span>Curses</span></label>
+        <label><input type="checkbox"/><span>Framebuffer</span></label>
+        <label><input type="checkbox"/><span>Newt</span></label>
+        <label><input type="checkbox"/><span>svgalib</span></label>
+        <label><input type="checkbox"/><span>Handhelds/PDA's</span></label>
       </div>
+      <label><input type="checkbox"/><span>MacOS X</span></label>
+      <div class="child-category">
+        <label><input type="checkbox"/><span>Aqua</span></label>
+        <label><input type="checkbox"/><span>Carbon</span></label>
+        <label><input type="checkbox"/><span>Cocoa</span></label>
+      </div>
+      <label><input type="checkbox"/><span>No Input/Output (Daemon)</span></label>
+      <label><input type="checkbox"/><span>OpenStack</span></label>
+      <label><input type="checkbox"/><span>Other Environment</span></label>
+      <label><input type="checkbox"/><span>Plugins</span></label>
+      <label><input type="checkbox"/><span>Web Environment</span></label>
+      <div class="child-category">
+        <label><input type="checkbox"/><span>Buffet</span></label>
+        <label><input type="checkbox"/><span>Mozilla</span></label>
+        <label><input type="checkbox"/><span>ToscaWidgets</span></label>
+      </div>
+      <label><input type="checkbox"/><span>Win32 (MS Windows)</span></label>
+      <label><input type="checkbox"/><span>X11 Applications</span></label>
+      <div class="child-category">
+        <label><input type="checkbox"/><span>Gnome</span></label>
+        <label><input type="checkbox"/><span>GTK</span></label>
+        <label><input type="checkbox"/><span>KDE</span></label>
+        <label><input type="checkbox"/><span>Qt</span></label>
+      </div>
+    </div>
 
-      <a href="javascript:void(0)" class="expander-trigger expander-hidden">By Environment</a>
-      <div class="expander-content">
-        <label><input type="checkbox"/><span>Console</span></label>
-        <div class="child-category">
-          <label><input type="checkbox"/><span>Curses</span></label>
-          <label><input type="checkbox"/><span>Framebuffer</span></label>
-          <label><input type="checkbox"/><span>Newt</span></label>
-          <label><input type="checkbox"/><span>svgalib</span></label>
-          <label><input type="checkbox"/><span>Handhelds/PDA's</span></label>
-        </div>
+    <a href="javascript:void(0)" class="expander-trigger expander-hidden">By Framework</a>
+    <div class="expander-content">
+      <label><input type="checkbox"/><span>BFG</span></label>
+      <label><input type="checkbox"/><span>Bob</span></label>
+      <label><input type="checkbox"/><span>Bottle</span></label>
+      <label><input type="checkbox"/><span>Buildout</span></label>
+      <div class="child-category">
+        <label><input type="checkbox"/><span>Extension</span></label>
+        <label><input type="checkbox"/><span>Recipe</span></label>
+      </div>
+      <label><input type="checkbox"/><span>Chandler</span></label>
+      <label><input type="checkbox"/><span>CherryPy</span></label>
+      <label><input type="checkbox"/><span>CubicWeb</span></label>
+      <label><input type="checkbox"/><span>Django</span></label>
+      <div class="child-category">
+        <label><input type="checkbox"/><span>1.4</span></label>
+        <label><input type="checkbox"/><span>1.5</span></label>
+        <label><input type="checkbox"/><span>1.6</span></label>
+        <label><input type="checkbox"/><span>1.7</span></label>
+        <label><input type="checkbox"/><span>1.8</span></label>
+      </div>
+      <label><input type="checkbox"/><span>Flask</span></label>
+      <label><input type="checkbox"/><span>IDLE</span></label>
+      <label><input type="checkbox"/><span>IPython</span></label>
+      <label><input type="checkbox"/><span>Opps</span></label>
+      <label><input type="checkbox"/><span>Paste</span></label>
+      <label><input type="checkbox"/><span>Plone</span></label>
+      <div class="child-category">
+        <label><input type="checkbox"/><span>3.2</span></label>
+        <label><input type="checkbox"/><span>3.3</span></label>
+        <label><input type="checkbox"/><span>4.0</span></label>
+        <label><input type="checkbox"/><span>4.1</span></label>
+        <label><input type="checkbox"/><span>4.2</span></label>
+        <label><input type="checkbox"/><span>4.3</span></label>
+        <label><input type="checkbox"/><span>5.0</span></label>
+      </div>
+      <label><input type="checkbox"/><span>Pylons</span></label>
+      <label><input type="checkbox"/><span>Pyramid</span></label>
+      <label><input type="checkbox"/><span>Review Board</span></label>
+      <label><input type="checkbox"/><span>Scrapy</span></label>
+      <label><input type="checkbox"/><span>Setuptools Plugin</span></label>
+      <label><input type="checkbox"/><span>Sphinx</span></label>
+      <div class="child-category">
+        <label><input type="checkbox"/><span>Extension</span></label>
+        <label><input type="checkbox"/><span>Theme</span></label>
+      </div>
+      <label><input type="checkbox"/><span>Trac</span></label>
+      <label><input type="checkbox"/><span>Tryton</span></label>
+      <label><input type="checkbox"/><span>TurboGears</span></label>
+      <div class="child-category">
+        <label><input type="checkbox"/><span>Applications</span></label>
+        <label><input type="checkbox"/><span>Widgets</span></label>
+      </div>
+      <label><input type="checkbox"/><span>Twisted</span></label>
+      <label><input type="checkbox"/><span>ZODB</span></label>
+      <label><input type="checkbox"/><span>Zope2</span></label>
+      <label><input type="checkbox"/><span>Zope3</span></label>
+    </div>
+
+    <a href="javascript:void(0)" class="expander-trigger expander-hidden">By Intended Audience</a>
+    <div class="expander-content">
+      <label><input type="checkbox"><span>Customer Service</span></label>
+      <label><input type="checkbox"><span>Developers</span></label>
+      <label><input type="checkbox"><span>Education</span></label>
+      <label><input type="checkbox"><span>End Users/Desktop</span></label>
+      <label><input type="checkbox"><span>Financial and Insurance Industry</span></label>
+      <label><input type="checkbox"><span>Healthcare Industry</span></label>
+      <label><input type="checkbox"><span>Information Technology</span></label>
+      <label><input type="checkbox"><span>Legal Industry</span></label>
+      <label><input type="checkbox"><span>Manufacturing</span></label>
+      <label><input type="checkbox"><span>Other Audience</span></label>
+      <label><input type="checkbox"><span>Religion</span></label>
+      <label><input type="checkbox"><span>Science/Research</span></label>
+      <label><input type="checkbox"><span>System Administrators</span></label>
+      <label><input type="checkbox"><span>Telecommunications Industry</span></label>
+    </div>
+
+    <a href="javascript:void(0)" class="expander-trigger expander-hidden">By License</a>
+    <div class="expander-content">
+      <label><input type="checkbox"/><span>Aladdin Free Public License (AFPL)</span></label>
+      <label><input type="checkbox"/><span>CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</span></label>
+      <label><input type="checkbox"/><span>DFSG approved</span></label>
+      <label><input type="checkbox"/><span>Eiffel Forum License (EFL)</span></label>
+      <label><input type="checkbox"/><span>Free For Educational Use</span></label>
+      <label><input type="checkbox"/><span>Free For Home Use</span></label>
+      <label><input type="checkbox"/><span>Free for non-commercial use</span></label>
+      <label><input type="checkbox"/><span>Freely Distributable</span></label>
+      <label><input type="checkbox"/><span>Free To Use But Restricted</span></label>
+      <label><input type="checkbox"/><span>Freeware</span></label>
+      <label><input type="checkbox"/><span>Netscape Public License (NPL)</span></label>
+      <label><input type="checkbox"/><span>Nokia Open Source License (NOKOS)</span></label>
+      <label><input type="checkbox"/><span>OSI Approved</span></label>
+      <div class="child-category">
+        <label><input type="checkbox"/><span>Academic Free License (AFL)</span></label>
+        <label><input type="checkbox"/><span>Apache Software License</span></label>
+        <label><input type="checkbox"/><span>Apple Public Source License</span></label>
+        <label><input type="checkbox"/><span>Artistic License</span></label>
+        <label><input type="checkbox"/><span>Attribution Assurance License</span></label>
+        <label><input type="checkbox"/><span>BSD License</span></label>
+        <label><input type="checkbox"/><span>CEA CNRS Inria Logiciel Libre License, version 2.1 (CeCILL-2.1)</span></label>
+        <label><input type="checkbox"/><span>Common Public License</span></label>
+        <label><input type="checkbox"/><span>Eiffel Forum License</span></label>
+        <label><input type="checkbox"/><span>European Union Public Licence 1.0 (EUPL 1.0)</span></label>
+        <label><input type="checkbox"/><span>European Union Public Licence 1.1 (EUPL 1.1)</span></label>
+        <label><input type="checkbox"/><span>GNU Affero General Public License v3</span></label>
+        <label><input type="checkbox"/><span>GNU Affero General Public License v3 or later (AGPLv3+)</span></label>
+        <label><input type="checkbox"/><span>GNU Free Documentation License (FDL)</span></label>
+        <label><input type="checkbox"/><span>GNU General Public License (GPL)</span></label>
+        <label><input type="checkbox"/><span>GNU General Public License v2 (GPLv2)</span></label>
+        <label><input type="checkbox"/><span>GNU General Public License v2 or later (GPLv2+)</span></label>
+        <label><input type="checkbox"/><span>GNU General Public License v3 (GPLv3)</span></label>
+        <label><input type="checkbox"/><span>GNU General Public License v3 or later (GPLv3+)</span></label>
+        <label><input type="checkbox"/><span>GNU Lesser General Public License v2 (LGPLv2)</span></label>
+        <label><input type="checkbox"/><span>GNU Lesser General Public License v2 or later (LGPLv2+)</span></label>
+        <label><input type="checkbox"/><span>GNU Lesser General Public License v3 (LGPLv3)</span></label>
+        <label><input type="checkbox"/><span>GNU Lesser General Public License v3 or later (LGPLv3+)</span></label>
+        <label><input type="checkbox"/><span>GNU Library or Lesser General Public License (LGPL)</span></label>
+        <label><input type="checkbox"/><span>IBM Public License</span></label>
+        <label><input type="checkbox"/><span>Intel Open Source License</span></label>
+        <label><input type="checkbox"/><span>ISC License (ISCL)</span></label>
+        <label><input type="checkbox"/><span>Jabber Open Source License</span></label>
+        <label><input type="checkbox"/><span>MIT License</span></label>
+        <label><input type="checkbox"/><span>MITRE Collaborative Virtual Workspace License (CVW)</span></label>
+        <label><input type="checkbox"/><span>Motosoto License</span></label>
+        <label><input type="checkbox"/><span>Mozilla Public License 1.0 (MPL)</span></label>
+        <label><input type="checkbox"/><span>Mozilla Public License 1.1 (MPL 1.1)</span></label>
+        <label><input type="checkbox"/><span>Mozilla Public License 2.0 (MPL 2.0)</span></label>
+        <label><input type="checkbox"/><span>Nethack General Public License</span></label>
+        <label><input type="checkbox"/><span>Nokia Open Source License</span></label>
+        <label><input type="checkbox"/><span>Open Group Test Suite License</span></label>
+        <label><input type="checkbox"/><span>Python License (CNRI Python License)</span></label>
+        <label><input type="checkbox"/><span>Python Software Foundation License</span></label>
+        <label><input type="checkbox"/><span>Qt Public License (QPL)</span></label>
+        <label><input type="checkbox"/><span>Ricoh Source Code Public License</span></label>
+        <label><input type="checkbox"/><span>Sleepycat License</span></label>
+        <label><input type="checkbox"/><span>Sun Industry Standards Source License (SISSL)</span></label>
+        <label><input type="checkbox"/><span>Sun Public License</span></label>
+        <label><input type="checkbox"/><span>University of Illinois/NCSA Open Source License</span></label>
+        <label><input type="checkbox"/><span>Vovida Software License 1.0</span></label>
+        <label><input type="checkbox"/><span>W3C License</span></label>
+        <label><input type="checkbox"/><span>X.Net License</span></label>
+        <label><input type="checkbox"/><span>zlib/libpng License</span></label>
+        <label><input type="checkbox"/><span>Zope Public License</span></label>
+      </div>
+      <label><input type="checkbox"/>Other/Proprietary License</label>
+      <label><input type="checkbox"/>Public Domain</label>
+      <label><input type="checkbox"/>Repoze Public License</label>
+    </div>
+
+    <a href="javascript:void(0)" class="expander-trigger expander-hidden">By Natural Language</a>
+    <div class="expander-content">
+      <label><input type="checkbox"/><span>Afrikaans</span></label>
+      <label><input type="checkbox"/><span>Arabic</span></label>
+      <label><input type="checkbox"/><span>Bengali</span></label>
+      <label><input type="checkbox"/><span>Bosnian</span></label>
+      <label><input type="checkbox"/><span>Bulgarian</span></label>
+      <label><input type="checkbox"/><span>Cantonese</span></label>
+      <label><input type="checkbox"/><span>Catalan</span></label>
+      <label><input type="checkbox"/><span>Chinese (Simplified)</span></label>
+      <label><input type="checkbox"/><span>Chinese (Traditional)</span></label>
+      <label><input type="checkbox"/><span>Croatian</span></label>
+      <label><input type="checkbox"/><span>Czech</span></label>
+      <label><input type="checkbox"/><span>Danish</span></label>
+      <label><input type="checkbox"/><span>Dutch</span></label>
+      <label><input type="checkbox"/><span>English</span></label>
+      <label><input type="checkbox"/><span>Esperanto</span></label>
+      <label><input type="checkbox"/><span>Finnish</span></label>
+      <label><input type="checkbox"/><span>French</span></label>
+      <label><input type="checkbox"/><span>Galician</span></label>
+      <label><input type="checkbox"/><span>German</span></label>
+      <label><input type="checkbox"/><span>Greek</span></label>
+      <label><input type="checkbox"/><span>Hebrew</span></label>
+      <label><input type="checkbox"/><span>Hindi</span></label>
+      <label><input type="checkbox"/><span>Hungarian</span></label>
+      <label><input type="checkbox"/><span>Icelandic</span></label>
+      <label><input type="checkbox"/><span>Indonesian</span></label>
+      <label><input type="checkbox"/><span>Italian</span></label>
+      <label><input type="checkbox"/><span>Japanese</span></label>
+      <label><input type="checkbox"/><span>Javanese</span></label>
+      <label><input type="checkbox"/><span>Korean</span></label>
+      <label><input type="checkbox"/><span>Latin</span></label>
+      <label><input type="checkbox"/><span>Latvian</span></label>
+      <label><input type="checkbox"/><span>Macedonian</span></label>
+      <label><input type="checkbox"/><span>Malay</span></label>
+      <label><input type="checkbox"/><span>Marathi</span></label>
+      <label><input type="checkbox"/><span>Norwegian</span></label>
+      <label><input type="checkbox"/><span>Panjabi</span></label>
+      <label><input type="checkbox"/><span>Persian</span></label>
+      <label><input type="checkbox"/><span>Polish</span></label>
+      <label><input type="checkbox"/><span>Portuguese</span></label>
+      <label><input type="checkbox"/><span>Portuguese (Brazilian)</span></label>
+      <label><input type="checkbox"/><span>Romanian</span></label>
+      <label><input type="checkbox"/><span>Russian</span></label>
+      <label><input type="checkbox"/><span>Serbian</span></label>
+      <label><input type="checkbox"/><span>Slovak</span></label>
+      <label><input type="checkbox"/><span>Slovenian</span></label>
+      <label><input type="checkbox"/><span>Spanish</span></label>
+      <label><input type="checkbox"/><span>Swedish</span></label>
+      <label><input type="checkbox"/><span>Tamil</span></label>
+      <label><input type="checkbox"/><span>Telugu</span></label>
+      <label><input type="checkbox"/><span>Thai</span></label>
+      <label><input type="checkbox"/><span>Turkish</span></label>
+      <label><input type="checkbox"/><span>Ukranian</span></label>
+      <label><input type="checkbox"/><span>Urdu</span></label>
+      <label><input type="checkbox"/><span>Vietnamese</span></label>
+    </div>
+
+    <a href="javascript:void(0)" class="expander-trigger expander-hidden">By Operating System</a>
+    <div class="expander-content">
+      <label><input type="checkbox"/><span>Android</span></label>
+      <label><input type="checkbox"/><span>BeOS</span></label>
+      <label><input type="checkbox"/><span>iOS</span></label>
+      <label><input type="checkbox"/><span>MacOS</span></label>
+      <div class="child-category">
+        <label><input type="checkbox"/><span>MacOS 9</span></label>
         <label><input type="checkbox"/><span>MacOS X</span></label>
+      </div>
+      <label><input type="checkbox"/><span>Microsoft</span></label>
+      <div class="child-category">
+        <label><input type="checkbox"/><span>MS-DOS</span></label>
+        <label><input type="checkbox"/><span>Windows</span></label>
         <div class="child-category">
-          <label><input type="checkbox"/><span>Aqua</span></label>
-          <label><input type="checkbox"/><span>Carbon</span></label>
-          <label><input type="checkbox"/><span>Cocoa</span></label>
-        </div>
-        <label><input type="checkbox"/><span>No Input/Output (Daemon)</span></label>
-        <label><input type="checkbox"/><span>OpenStack</span></label>
-        <label><input type="checkbox"/><span>Other Environment</span></label>
-        <label><input type="checkbox"/><span>Plugins</span></label>
-        <label><input type="checkbox"/><span>Web Environment</span></label>
-        <div class="child-category">
-          <label><input type="checkbox"/><span>Buffet</span></label>
-          <label><input type="checkbox"/><span>Mozilla</span></label>
-          <label><input type="checkbox"/><span>ToscaWidgets</span></label>
-        </div>
-        <label><input type="checkbox"/><span>Win32 (MS Windows)</span></label>
-        <label><input type="checkbox"/><span>X11 Applications</span></label>
-        <div class="child-category">
-          <label><input type="checkbox"/><span>Gnome</span></label>
-          <label><input type="checkbox"/><span>GTK</span></label>
-          <label><input type="checkbox"/><span>KDE</span></label>
-          <label><input type="checkbox"/><span>Qt</span></label>
+          <label><input type="checkbox"/><span>Windows 3.1 or Earlier</span></label>
+          <label><input type="checkbox"/><span>Windows 7</span></label>
+          <label><input type="checkbox"/><span>Windows 95/98/2000</span></label>
+          <label><input type="checkbox"/><span>Windows CE</span></label>
+          <label><input type="checkbox"/><span>Windows NT/2000</span></label>
+          <label><input type="checkbox"/><span>Windows Server 2003</span></label>
+          <label><input type="checkbox"/><span>Windows Server 2008</span></label>
+          <label><input type="checkbox"/><span>Windows Vista</span></label>
+          <label><input type="checkbox"/><span>Windows XP</span></label>
         </div>
       </div>
-
-      <a href="javascript:void(0)" class="expander-trigger expander-hidden">By Framework</a>
-      <div class="expander-content">
-        <label><input type="checkbox"/><span>BFG</span></label>
-        <label><input type="checkbox"/><span>Bob</span></label>
-        <label><input type="checkbox"/><span>Bottle</span></label>
-        <label><input type="checkbox"/><span>Buildout</span></label>
+      <label><input type="checkbox"/><span>OS/2</span></label>
+      <label><input type="checkbox"/><span>OS Independent</span></label>
+      <label><input type="checkbox"/><span>Other OS</span></label>
+      <label><input type="checkbox"/><span>PalmOS</span></label>
+      <label><input type="checkbox"/><span>PDA Systems</span></label>
+      <label><input type="checkbox"/><span>POSIX</span></label>
+      <div class="child-category">
+        <label><input type="checkbox"/><span>AIX</span></label>
+        <label><input type="checkbox"/><span>BSD</span></label>
         <div class="child-category">
-          <label><input type="checkbox"/><span>Extension</span></label>
-          <label><input type="checkbox"/><span>Recipe</span></label>
+          <label><input type="checkbox"/><span>BSD/OS</span></label>
+          <label><input type="checkbox"/><span>FreeBSD</span></label>
+          <label><input type="checkbox"/><span>NetBSD</span></label>
+          <label><input type="checkbox"/><span>OpenBSD</span></label>
         </div>
-        <label><input type="checkbox"/><span>Chandler</span></label>
-        <label><input type="checkbox"/><span>CherryPy</span></label>
-        <label><input type="checkbox"/><span>CubicWeb</span></label>
-        <label><input type="checkbox"/><span>Django</span></label>
-        <div class="child-category">
-          <label><input type="checkbox"/><span>1.4</span></label>
-          <label><input type="checkbox"/><span>1.5</span></label>
-          <label><input type="checkbox"/><span>1.6</span></label>
-          <label><input type="checkbox"/><span>1.7</span></label>
-          <label><input type="checkbox"/><span>1.8</span></label>
-        </div>
-        <label><input type="checkbox"/><span>Flask</span></label>
-        <label><input type="checkbox"/><span>IDLE</span></label>
-        <label><input type="checkbox"/><span>IPython</span></label>
-        <label><input type="checkbox"/><span>Opps</span></label>
-        <label><input type="checkbox"/><span>Paste</span></label>
-        <label><input type="checkbox"/><span>Plone</span></label>
-        <div class="child-category">
-          <label><input type="checkbox"/><span>3.2</span></label>
-          <label><input type="checkbox"/><span>3.3</span></label>
-          <label><input type="checkbox"/><span>4.0</span></label>
-          <label><input type="checkbox"/><span>4.1</span></label>
-          <label><input type="checkbox"/><span>4.2</span></label>
-          <label><input type="checkbox"/><span>4.3</span></label>
-          <label><input type="checkbox"/><span>5.0</span></label>
-        </div>
-        <label><input type="checkbox"/><span>Pylons</span></label>
-        <label><input type="checkbox"/><span>Pyramid</span></label>
-        <label><input type="checkbox"/><span>Review Board</span></label>
-        <label><input type="checkbox"/><span>Scrapy</span></label>
-        <label><input type="checkbox"/><span>Setuptools Plugin</span></label>
-        <label><input type="checkbox"/><span>Sphinx</span></label>
-        <div class="child-category">
-          <label><input type="checkbox"/><span>Extension</span></label>
-          <label><input type="checkbox"/><span>Theme</span></label>
-        </div>
-        <label><input type="checkbox"/><span>Trac</span></label>
-        <label><input type="checkbox"/><span>Tryton</span></label>
-        <label><input type="checkbox"/><span>TurboGears</span></label>
-        <div class="child-category">
-          <label><input type="checkbox"/><span>Applications</span></label>
-          <label><input type="checkbox"/><span>Widgets</span></label>
-        </div>
-        <label><input type="checkbox"/><span>Twisted</span></label>
-        <label><input type="checkbox"/><span>ZODB</span></label>
-        <label><input type="checkbox"/><span>Zope2</span></label>
-        <label><input type="checkbox"/><span>Zope3</span></label>
-      </div>
-
-      <a href="javascript:void(0)" class="expander-trigger expander-hidden">By Intended Audience</a>
-      <div class="expander-content">
-        <label><input type="checkbox"><span>Customer Service</span></label>
-        <label><input type="checkbox"><span>Developers</span></label>
-        <label><input type="checkbox"><span>Education</span></label>
-        <label><input type="checkbox"><span>End Users/Desktop</span></label>
-        <label><input type="checkbox"><span>Financial and Insurance Industry</span></label>
-        <label><input type="checkbox"><span>Healthcare Industry</span></label>
-        <label><input type="checkbox"><span>Information Technology</span></label>
-        <label><input type="checkbox"><span>Legal Industry</span></label>
-        <label><input type="checkbox"><span>Manufacturing</span></label>
-        <label><input type="checkbox"><span>Other Audience</span></label>
-        <label><input type="checkbox"><span>Religion</span></label>
-        <label><input type="checkbox"><span>Science/Research</span></label>
-        <label><input type="checkbox"><span>System Administrators</span></label>
-        <label><input type="checkbox"><span>Telecommunications Industry</span></label>
-      </div>
-
-      <a href="javascript:void(0)" class="expander-trigger expander-hidden">By License</a>
-      <div class="expander-content">
-        <label><input type="checkbox"/><span>Aladdin Free Public License (AFPL)</span></label>
-        <label><input type="checkbox"/><span>CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</span></label>
-        <label><input type="checkbox"/><span>DFSG approved</span></label>
-        <label><input type="checkbox"/><span>Eiffel Forum License (EFL)</span></label>
-        <label><input type="checkbox"/><span>Free For Educational Use</span></label>
-        <label><input type="checkbox"/><span>Free For Home Use</span></label>
-        <label><input type="checkbox"/><span>Free for non-commercial use</span></label>
-        <label><input type="checkbox"/><span>Freely Distributable</span></label>
-        <label><input type="checkbox"/><span>Free To Use But Restricted</span></label>
-        <label><input type="checkbox"/><span>Freeware</span></label>
-        <label><input type="checkbox"/><span>Netscape Public License (NPL)</span></label>
-        <label><input type="checkbox"/><span>Nokia Open Source License (NOKOS)</span></label>
-        <label><input type="checkbox"/><span>OSI Approved</span></label>
-        <div class="child-category">
-          <label><input type="checkbox"/><span>Academic Free License (AFL)</span></label>
-          <label><input type="checkbox"/><span>Apache Software License</span></label>
-          <label><input type="checkbox"/><span>Apple Public Source License</span></label>
-          <label><input type="checkbox"/><span>Artistic License</span></label>
-          <label><input type="checkbox"/><span>Attribution Assurance License</span></label>
-          <label><input type="checkbox"/><span>BSD License</span></label>
-          <label><input type="checkbox"/><span>CEA CNRS Inria Logiciel Libre License, version 2.1 (CeCILL-2.1)</span></label>
-          <label><input type="checkbox"/><span>Common Public License</span></label>
-          <label><input type="checkbox"/><span>Eiffel Forum License</span></label>
-          <label><input type="checkbox"/><span>European Union Public Licence 1.0 (EUPL 1.0)</span></label>
-          <label><input type="checkbox"/><span>European Union Public Licence 1.1 (EUPL 1.1)</span></label>
-          <label><input type="checkbox"/><span>GNU Affero General Public License v3</span></label>
-          <label><input type="checkbox"/><span>GNU Affero General Public License v3 or later (AGPLv3+)</span></label>
-          <label><input type="checkbox"/><span>GNU Free Documentation License (FDL)</span></label>
-          <label><input type="checkbox"/><span>GNU General Public License (GPL)</span></label>
-          <label><input type="checkbox"/><span>GNU General Public License v2 (GPLv2)</span></label>
-          <label><input type="checkbox"/><span>GNU General Public License v2 or later (GPLv2+)</span></label>
-          <label><input type="checkbox"/><span>GNU General Public License v3 (GPLv3)</span></label>
-          <label><input type="checkbox"/><span>GNU General Public License v3 or later (GPLv3+)</span></label>
-          <label><input type="checkbox"/><span>GNU Lesser General Public License v2 (LGPLv2)</span></label>
-          <label><input type="checkbox"/><span>GNU Lesser General Public License v2 or later (LGPLv2+)</span></label>
-          <label><input type="checkbox"/><span>GNU Lesser General Public License v3 (LGPLv3)</span></label>
-          <label><input type="checkbox"/><span>GNU Lesser General Public License v3 or later (LGPLv3+)</span></label>
-          <label><input type="checkbox"/><span>GNU Library or Lesser General Public License (LGPL)</span></label>
-          <label><input type="checkbox"/><span>IBM Public License</span></label>
-          <label><input type="checkbox"/><span>Intel Open Source License</span></label>
-          <label><input type="checkbox"/><span>ISC License (ISCL)</span></label>
-          <label><input type="checkbox"/><span>Jabber Open Source License</span></label>
-          <label><input type="checkbox"/><span>MIT License</span></label>
-          <label><input type="checkbox"/><span>MITRE Collaborative Virtual Workspace License (CVW)</span></label>
-          <label><input type="checkbox"/><span>Motosoto License</span></label>
-          <label><input type="checkbox"/><span>Mozilla Public License 1.0 (MPL)</span></label>
-          <label><input type="checkbox"/><span>Mozilla Public License 1.1 (MPL 1.1)</span></label>
-          <label><input type="checkbox"/><span>Mozilla Public License 2.0 (MPL 2.0)</span></label>
-          <label><input type="checkbox"/><span>Nethack General Public License</span></label>
-          <label><input type="checkbox"/><span>Nokia Open Source License</span></label>
-          <label><input type="checkbox"/><span>Open Group Test Suite License</span></label>
-          <label><input type="checkbox"/><span>Python License (CNRI Python License)</span></label>
-          <label><input type="checkbox"/><span>Python Software Foundation License</span></label>
-          <label><input type="checkbox"/><span>Qt Public License (QPL)</span></label>
-          <label><input type="checkbox"/><span>Ricoh Source Code Public License</span></label>
-          <label><input type="checkbox"/><span>Sleepycat License</span></label>
-          <label><input type="checkbox"/><span>Sun Industry Standards Source License (SISSL)</span></label>
-          <label><input type="checkbox"/><span>Sun Public License</span></label>
-          <label><input type="checkbox"/><span>University of Illinois/NCSA Open Source License</span></label>
-          <label><input type="checkbox"/><span>Vovida Software License 1.0</span></label>
-          <label><input type="checkbox"/><span>W3C License</span></label>
-          <label><input type="checkbox"/><span>X.Net License</span></label>
-          <label><input type="checkbox"/><span>zlib/libpng License</span></label>
-          <label><input type="checkbox"/><span>Zope Public License</span></label>
-        </div>
-        <label><input type="checkbox"/>Other/Proprietary License</label>
-        <label><input type="checkbox"/>Public Domain</label>
-        <label><input type="checkbox"/>Repoze Public License</label>
-      </div>
-
-      <a href="javascript:void(0)" class="expander-trigger expander-hidden">By Natural Language</a>
-      <div class="expander-content">
-        <label><input type="checkbox"/><span>Afrikaans</span></label>
-        <label><input type="checkbox"/><span>Arabic</span></label>
-        <label><input type="checkbox"/><span>Bengali</span></label>
-        <label><input type="checkbox"/><span>Bosnian</span></label>
-        <label><input type="checkbox"/><span>Bulgarian</span></label>
-        <label><input type="checkbox"/><span>Cantonese</span></label>
-        <label><input type="checkbox"/><span>Catalan</span></label>
-        <label><input type="checkbox"/><span>Chinese (Simplified)</span></label>
-        <label><input type="checkbox"/><span>Chinese (Traditional)</span></label>
-        <label><input type="checkbox"/><span>Croatian</span></label>
-        <label><input type="checkbox"/><span>Czech</span></label>
-        <label><input type="checkbox"/><span>Danish</span></label>
-        <label><input type="checkbox"/><span>Dutch</span></label>
-        <label><input type="checkbox"/><span>English</span></label>
-        <label><input type="checkbox"/><span>Esperanto</span></label>
-        <label><input type="checkbox"/><span>Finnish</span></label>
-        <label><input type="checkbox"/><span>French</span></label>
-        <label><input type="checkbox"/><span>Galician</span></label>
-        <label><input type="checkbox"/><span>German</span></label>
-        <label><input type="checkbox"/><span>Greek</span></label>
-        <label><input type="checkbox"/><span>Hebrew</span></label>
-        <label><input type="checkbox"/><span>Hindi</span></label>
-        <label><input type="checkbox"/><span>Hungarian</span></label>
-        <label><input type="checkbox"/><span>Icelandic</span></label>
-        <label><input type="checkbox"/><span>Indonesian</span></label>
-        <label><input type="checkbox"/><span>Italian</span></label>
-        <label><input type="checkbox"/><span>Japanese</span></label>
-        <label><input type="checkbox"/><span>Javanese</span></label>
-        <label><input type="checkbox"/><span>Korean</span></label>
-        <label><input type="checkbox"/><span>Latin</span></label>
-        <label><input type="checkbox"/><span>Latvian</span></label>
-        <label><input type="checkbox"/><span>Macedonian</span></label>
-        <label><input type="checkbox"/><span>Malay</span></label>
-        <label><input type="checkbox"/><span>Marathi</span></label>
-        <label><input type="checkbox"/><span>Norwegian</span></label>
-        <label><input type="checkbox"/><span>Panjabi</span></label>
-        <label><input type="checkbox"/><span>Persian</span></label>
-        <label><input type="checkbox"/><span>Polish</span></label>
-        <label><input type="checkbox"/><span>Portuguese</span></label>
-        <label><input type="checkbox"/><span>Portuguese (Brazilian)</span></label>
-        <label><input type="checkbox"/><span>Romanian</span></label>
-        <label><input type="checkbox"/><span>Russian</span></label>
-        <label><input type="checkbox"/><span>Serbian</span></label>
-        <label><input type="checkbox"/><span>Slovak</span></label>
-        <label><input type="checkbox"/><span>Slovenian</span></label>
-        <label><input type="checkbox"/><span>Spanish</span></label>
-        <label><input type="checkbox"/><span>Swedish</span></label>
-        <label><input type="checkbox"/><span>Tamil</span></label>
-        <label><input type="checkbox"/><span>Telugu</span></label>
-        <label><input type="checkbox"/><span>Thai</span></label>
-        <label><input type="checkbox"/><span>Turkish</span></label>
-        <label><input type="checkbox"/><span>Ukranian</span></label>
-        <label><input type="checkbox"/><span>Urdu</span></label>
-        <label><input type="checkbox"/><span>Vietnamese</span></label>
-      </div>
-
-      <a href="javascript:void(0)" class="expander-trigger expander-hidden">By Operating System</a>
-      <div class="expander-content">
-        <label><input type="checkbox"/><span>Android</span></label>
-        <label><input type="checkbox"/><span>BeOS</span></label>
-        <label><input type="checkbox"/><span>iOS</span></label>
-        <label><input type="checkbox"/><span>MacOS</span></label>
-        <div class="child-category">
-          <label><input type="checkbox"/><span>MacOS 9</span></label>
-          <label><input type="checkbox"/><span>MacOS X</span></label>
-        </div>
-        <label><input type="checkbox"/><span>Microsoft</span></label>
-        <div class="child-category">
-          <label><input type="checkbox"/><span>MS-DOS</span></label>
-          <label><input type="checkbox"/><span>Windows</span></label>
-          <div class="child-category">
-            <label><input type="checkbox"/><span>Windows 3.1 or Earlier</span></label>
-            <label><input type="checkbox"/><span>Windows 7</span></label>
-            <label><input type="checkbox"/><span>Windows 95/98/2000</span></label>
-            <label><input type="checkbox"/><span>Windows CE</span></label>
-            <label><input type="checkbox"/><span>Windows NT/2000</span></label>
-            <label><input type="checkbox"/><span>Windows Server 2003</span></label>
-            <label><input type="checkbox"/><span>Windows Server 2008</span></label>
-            <label><input type="checkbox"/><span>Windows Vista</span></label>
-            <label><input type="checkbox"/><span>Windows XP</span></label>
-          </div>
-        </div>
-        <label><input type="checkbox"/><span>OS/2</span></label>
-        <label><input type="checkbox"/><span>OS Independent</span></label>
-        <label><input type="checkbox"/><span>Other OS</span></label>
-        <label><input type="checkbox"/><span>PalmOS</span></label>
-        <label><input type="checkbox"/><span>PDA Systems</span></label>
-        <label><input type="checkbox"/><span>POSIX</span></label>
-        <div class="child-category">
-          <label><input type="checkbox"/><span>AIX</span></label>
-          <label><input type="checkbox"/><span>BSD</span></label>
-          <div class="child-category">
-            <label><input type="checkbox"/><span>BSD/OS</span></label>
-            <label><input type="checkbox"/><span>FreeBSD</span></label>
-            <label><input type="checkbox"/><span>NetBSD</span></label>
-            <label><input type="checkbox"/><span>OpenBSD</span></label>
-          </div>
-          <label><input type="checkbox"/><span>GNU Hurd</span></label>
-          <label><input type="checkbox"/><span>HP-UX</span></label>
-          <label><input type="checkbox"/><span>IRIX</span></label>
-          <label><input type="checkbox"/><span>Linux</span></label>
-          <label><input type="checkbox"/><span>Other</span></label>
-          <label><input type="checkbox"/><span>SCO</span></label>
-          <label><input type="checkbox"/><span>SunOS/Solaris</span></label>
-        </div>
-        <label><input type="checkbox"/><span>Unix</span></label>
-      </div>
-
-      <a href="javascript:void(0)" class="expander-trigger expander-hidden">By Programming Language</a>
-      <div class="expander-content">
-        <label><input type="checkbox"/><span>Ada</span></label>
-        <label><input type="checkbox"/><span>APL</span></label>
-        <label><input type="checkbox"/><span>ASP</span></label>
-        <label><input type="checkbox"/><span>Assembly</span></label>
-        <label><input type="checkbox"/><span>Awk</span></label>
-        <label><input type="checkbox"/><span>Basic</span></label>
-        <label><input type="checkbox"/><span>C</span></label>
-        <label><input type="checkbox"/><span>C#</span></label>
-        <label><input type="checkbox"/><span>C++</span></label>
-        <label><input type="checkbox"/><span>Cold Fusion</span></label>
-        <label><input type="checkbox"/><span>Cython</span></label>
-        <label><input type="checkbox"/><span>Delphi/Kylix</span></label>
-        <label><input type="checkbox"/><span>Dylan</span></label>
-        <label><input type="checkbox"/><span>Eiffel</span></label>
-        <label><input type="checkbox"/><span>Emacs-Lisp</span></label>
-        <label><input type="checkbox"/><span>Erlang</span></label>
-        <label><input type="checkbox"/><span>Euler</span></label>
-        <label><input type="checkbox"/><span>Euphoria</span></label>
-        <label><input type="checkbox"/><span>Forth</span></label>
-        <label><input type="checkbox"/><span>Fortran</span></label>
-        <label><input type="checkbox"/><span>Haskell</span></label>
-        <label><input type="checkbox"/><span>Java</span></label>
-        <label><input type="checkbox"/><span>JavaScript</span></label>
-        <label><input type="checkbox"/><span>Lisp</span></label>
-        <label><input type="checkbox"/><span>Logo</span></label>
-        <label><input type="checkbox"/><span>ML</span></label>
-        <label><input type="checkbox"/><span>Modula</span></label>
-        <label><input type="checkbox"/><span>Objective C</span></label>
-        <label><input type="checkbox"/><span>Object Pascal</span></label>
-        <label><input type="checkbox"/><span>OCaml</span></label>
+        <label><input type="checkbox"/><span>GNU Hurd</span></label>
+        <label><input type="checkbox"/><span>HP-UX</span></label>
+        <label><input type="checkbox"/><span>IRIX</span></label>
+        <label><input type="checkbox"/><span>Linux</span></label>
         <label><input type="checkbox"/><span>Other</span></label>
-        <label><input type="checkbox"/><span>Other Scripting Engines</span></label>
-        <label><input type="checkbox"/><span>Pascal</span></label>
-        <label><input type="checkbox"/><span>Perl</span></label>
-        <label><input type="checkbox"/><span>PHP</span></label>
-        <label><input type="checkbox"/><span>Pike</span></label>
-        <label><input type="checkbox"/><span>Pliant</span></label>
-        <label><input type="checkbox"/><span>PL/SQL</span></label>
-        <label><input type="checkbox"/><span>PROGRESS</span></label>
-        <label><input type="checkbox"/><span>Prolog</span></label>
-        <label><input type="checkbox"/><span>Python</span></label>
-        <div class="child-category">
-          <label><input type="checkbox"/><span>2</span></label>
-          <label><input type="checkbox"/><span>2.3</span></label>
-          <label><input type="checkbox"/><span>2.4</span></label>
-          <label><input type="checkbox"/><span>2.5</span></label>
-          <label><input type="checkbox"/><span>2.6</span></label>
-          <label><input type="checkbox"/><span>2.7</span></label>
-          <label><input type="checkbox"/><span>2 :: Only</span></label>
-          <label><input type="checkbox"/><span>3</span></label>
-          <label><input type="checkbox"/><span>3.0</span></label>
-          <label><input type="checkbox"/><span>3.1</span></label>
-          <label><input type="checkbox"/><span>3.2</span></label>
-          <label><input type="checkbox"/><span>3.3</span></label>
-          <label><input type="checkbox"/><span>3.4</span></label>
-          <label><input type="checkbox"/><span>3.5</span></label>
-          <label><input type="checkbox"/><span>3 :: Only</span></label>
-          <label><input type="checkbox"/><span>Implementation</span></label>
-          <div class="child-category">
-            <label><input type="checkbox"/><span>CPython</span></label>
-            <label><input type="checkbox"/><span>IronPython</span></label>
-            <label><input type="checkbox"/><span>Jython</span></label>
-            <label><input type="checkbox"/><span>PyPy</span></label>
-            <label><input type="checkbox"/><span>Stackless</span></label>
-          </div>
-        </div>
-        <label><input type="checkbox"/><span>REBOL</span></label>
-        <label><input type="checkbox"/><span>Rexx</span></label>
-        <label><input type="checkbox"/><span>Ruby</span></label>
-        <label><input type="checkbox"/><span>Scheme</span></label>
-        <label><input type="checkbox"/><span>Simula</span></label>
-        <label><input type="checkbox"/><span>Smalltalk</span></label>
-        <label><input type="checkbox"/><span>SQL</span></label>
-        <label><input type="checkbox"/><span>Tcl</span></label>
-        <label><input type="checkbox"/><span>Unix Shell</span></label>
-        <label><input type="checkbox"/><span>Visual Basic</span></label>
-        <label><input type="checkbox"/><span>XBasic</span></label>
-        <label><input type="checkbox"/><span>YACC</span></label>
-        <label><input type="checkbox"/><span>Zope</span></label>
+        <label><input type="checkbox"/><span>SCO</span></label>
+        <label><input type="checkbox"/><span>SunOS/Solaris</span></label>
       </div>
+      <label><input type="checkbox"/><span>Unix</span></label>
+    </div>
 
-      <a href="javascript:void(0)" class="expander-trigger expander-hidden">By Topic</a>
-      <div class="expander-content">
-        <label><input type="checkbox"/>Adaptive Technologies</label>
-        <label><input type="checkbox"/>Artistic Software</label>
-        <label><input type="checkbox"/>Communications</label>
+    <a href="javascript:void(0)" class="expander-trigger expander-hidden">By Programming Language</a>
+    <div class="expander-content">
+      <label><input type="checkbox"/><span>Ada</span></label>
+      <label><input type="checkbox"/><span>APL</span></label>
+      <label><input type="checkbox"/><span>ASP</span></label>
+      <label><input type="checkbox"/><span>Assembly</span></label>
+      <label><input type="checkbox"/><span>Awk</span></label>
+      <label><input type="checkbox"/><span>Basic</span></label>
+      <label><input type="checkbox"/><span>C</span></label>
+      <label><input type="checkbox"/><span>C#</span></label>
+      <label><input type="checkbox"/><span>C++</span></label>
+      <label><input type="checkbox"/><span>Cold Fusion</span></label>
+      <label><input type="checkbox"/><span>Cython</span></label>
+      <label><input type="checkbox"/><span>Delphi/Kylix</span></label>
+      <label><input type="checkbox"/><span>Dylan</span></label>
+      <label><input type="checkbox"/><span>Eiffel</span></label>
+      <label><input type="checkbox"/><span>Emacs-Lisp</span></label>
+      <label><input type="checkbox"/><span>Erlang</span></label>
+      <label><input type="checkbox"/><span>Euler</span></label>
+      <label><input type="checkbox"/><span>Euphoria</span></label>
+      <label><input type="checkbox"/><span>Forth</span></label>
+      <label><input type="checkbox"/><span>Fortran</span></label>
+      <label><input type="checkbox"/><span>Haskell</span></label>
+      <label><input type="checkbox"/><span>Java</span></label>
+      <label><input type="checkbox"/><span>JavaScript</span></label>
+      <label><input type="checkbox"/><span>Lisp</span></label>
+      <label><input type="checkbox"/><span>Logo</span></label>
+      <label><input type="checkbox"/><span>ML</span></label>
+      <label><input type="checkbox"/><span>Modula</span></label>
+      <label><input type="checkbox"/><span>Objective C</span></label>
+      <label><input type="checkbox"/><span>Object Pascal</span></label>
+      <label><input type="checkbox"/><span>OCaml</span></label>
+      <label><input type="checkbox"/><span>Other</span></label>
+      <label><input type="checkbox"/><span>Other Scripting Engines</span></label>
+      <label><input type="checkbox"/><span>Pascal</span></label>
+      <label><input type="checkbox"/><span>Perl</span></label>
+      <label><input type="checkbox"/><span>PHP</span></label>
+      <label><input type="checkbox"/><span>Pike</span></label>
+      <label><input type="checkbox"/><span>Pliant</span></label>
+      <label><input type="checkbox"/><span>PL/SQL</span></label>
+      <label><input type="checkbox"/><span>PROGRESS</span></label>
+      <label><input type="checkbox"/><span>Prolog</span></label>
+      <label><input type="checkbox"/><span>Python</span></label>
+      <div class="child-category">
+        <label><input type="checkbox"/><span>2</span></label>
+        <label><input type="checkbox"/><span>2.3</span></label>
+        <label><input type="checkbox"/><span>2.4</span></label>
+        <label><input type="checkbox"/><span>2.5</span></label>
+        <label><input type="checkbox"/><span>2.6</span></label>
+        <label><input type="checkbox"/><span>2.7</span></label>
+        <label><input type="checkbox"/><span>2 :: Only</span></label>
+        <label><input type="checkbox"/><span>3</span></label>
+        <label><input type="checkbox"/><span>3.0</span></label>
+        <label><input type="checkbox"/><span>3.1</span></label>
+        <label><input type="checkbox"/><span>3.2</span></label>
+        <label><input type="checkbox"/><span>3.3</span></label>
+        <label><input type="checkbox"/><span>3.4</span></label>
+        <label><input type="checkbox"/><span>3.5</span></label>
+        <label><input type="checkbox"/><span>3 :: Only</span></label>
+        <label><input type="checkbox"/><span>Implementation</span></label>
         <div class="child-category">
-          <label><input type="checkbox"/>BBS</label>
-          <label><input type="checkbox"/>Chat</label>
-          <div class="child-category">
-            <label><input type="checkbox"/>AOL Instant Messenger</label>
-            <label><input type="checkbox"/>ICQ</label>
-            <label><input type="checkbox"/>Internet Relay Chat</label>
-            <label><input type="checkbox"/>Unix Talk</label>
-          </div>
-          <label><input type="checkbox"/>Conferencing</label>
-          <label><input type="checkbox"/>Email</label>
-          <div class="child-category">
-            <label><input type="checkbox"/>Address Book</label>
-            <label><input type="checkbox"/>Email Clients (MUA)</label>
-            <label><input type="checkbox"/>Filters</label>
-            <label><input type="checkbox"/>Mailing List Servers</label>
-            <label><input type="checkbox"/>Mail Transport Agents</label>
-            <label><input type="checkbox"/>Post-Office</label>
-            <div class="child-category">
-              <label><input type="checkbox"/>IMAP</label>
-              <label><input type="checkbox"/>POP3</label>
-            </div>
-          </div>
-          <label><input type="checkbox"/>Fax</label>
-          <label><input type="checkbox"/>FIDO</label>
-          <label><input type="checkbox"/>File Sharing</label>
-          <div class="child-category">
-            <label><input type="checkbox"/>Gnutella</label>
-            <label><input type="checkbox"/>Napster</label>
-          </div>
-          <label><input type="checkbox"/>Ham Radio</label>
-          <label><input type="checkbox"/>Internet Phone</label>
-          <label><input type="checkbox"/>Telephony</label>
-          <label><input type="checkbox"/>Usenet News</label>
+          <label><input type="checkbox"/><span>CPython</span></label>
+          <label><input type="checkbox"/><span>IronPython</span></label>
+          <label><input type="checkbox"/><span>Jython</span></label>
+          <label><input type="checkbox"/><span>PyPy</span></label>
+          <label><input type="checkbox"/><span>Stackless</span></label>
         </div>
-        <label><input type="checkbox"/>Database</label>
-        <div class="child-category">
-          <label><input type="checkbox"/>Database Engines/Servers</label>
-          <label><input type="checkbox"/>Front-Ends</label>
-        </div>
-        <label><input type="checkbox"/>Desktop Environment</label>
-        <div class="child-category">
-          <label><input type="checkbox"/>File Managers</label>
-          <label><input type="checkbox"/>Gnome</label>
-          <label><input type="checkbox"/>GNUstep</label>
-          <label><input type="checkbox"/>K Desktop Environment (KDE)</label>
-          <div class="child-category">
-            <label><input type="checkbox"/>Themes</label>
-          </div>
-          <label><input type="checkbox"/>PicoGUI</label>
-          <div class="child-category">
-            <label><input type="checkbox"/>Applications</label>
-            <label><input type="checkbox"/>Themes</label>
-          </div>
-          <label><input type="checkbox"/>Screen Savers</label>
-          <label><input type="checkbox"/>Window Managers</label>
-          <div class="child-category">
-            <label><input type="checkbox"/>Afterstep</label>
-            <div class="child-category">
-              <label><input type="checkbox"/>Themes</label>
-            </div>
-            <label><input type="checkbox"/>Applets</label>
-            <label><input type="checkbox"/>Blackbox</label>
-            <div class="child-category">
-              <label><input type="checkbox"/>Themes</label>
-            </div>
-            <label><input type="checkbox"/>CTWM</label>
-            <div class="child-category">
-              <label><input type="checkbox"/>Themes</label>
-            </div>
-            <label><input type="checkbox"/>Enlightenment</label>
-            <div class="child-category">
-              <label><input type="checkbox"/>Epplets</label>
-              <label><input type="checkbox"/>Themes DR15</label>
-              <label><input type="checkbox"/>Themes DR16</label>
-              <label><input type="checkbox"/>Themes DR17</label>
-            </div>
-            <label><input type="checkbox"/>Fluxbox</label>
-            <div class="child-category">
-              <label><input type="checkbox"/>Themes</label>
-            </div>
-            <label><input type="checkbox"/>FVWM</label>
-            <div class="child-category">
-              <label><input type="checkbox"/>Themes</label>
-            </div>
-            <label><input type="checkbox"/>IceWM</label>
-            <div class="child-category">
-              <label><input type="checkbox"/>Themes</label>
-            </div>
-            <label><input type="checkbox"/>MetaCity</label>
-            <div class="child-category">
-              <label><input type="checkbox"/>Themes</label>
-            </div>
-            <label><input type="checkbox"/>Oroborus</label>
-            <div class="child-category">
-              <label><input type="checkbox"/>Themes</label>
-            </div>
-            <label><input type="checkbox"/>Sawfish</label>
-            <div class="child-category">
-              <label><input type="checkbox"/>Themes 0.30</label>
-              <label><input type="checkbox"/>Themes pre-0.30</label>
-            </div>
-            <label><input type="checkbox"/>Waimea</label>
-            <div class="child-category">
-              <label><input type="checkbox"/>Themes</label>
-            </div>
-            <label><input type="checkbox"/>Window Maker</label>
-            <div class="child-category">
-              <label><input type="checkbox"/>Applets</label>
-              <label><input type="checkbox"/>Themes</label>
-            </div>
-            <label><input type="checkbox"/>XFCE</label>
-            <div class="child-category">
-              <label><input type="checkbox"/>Themes</label>
-            </div>
-          </div>
-        </div>
-        <label><input type="checkbox"/>Documentation</label>
-        <div class="child-category">
-          <label><input type="checkbox"/>Sphinx</label>
-        </div>
-        <label><input type="checkbox"/>Education</label>
-        <div class="child-category">
-          <label><input type="checkbox"/>Computer Aided Instruction (CAI)</label>
-          <label><input type="checkbox"/>Testing</label>
-        </div>
-        <label><input type="checkbox"/>Games/Entertainment</label>
-        <div class="child-category">
-          <label><input type="checkbox"/>Arcade</label>
-          <label><input type="checkbox"/>Board Games</label>
-          <label><input type="checkbox"/>First Person Shooters</label>
-          <label><input type="checkbox"/>Fortune Cookies</label>
-          <label><input type="checkbox"/>Multi-User Dungeons (MUD)</label>
-          <label><input type="checkbox"/>Puzzle Games</label>
-          <label><input type="checkbox"/>Real Time Strategy</label>
-          <label><input type="checkbox"/>Role-Playing</label>
-          <label><input type="checkbox"/>Side-Scrolling/Arcade Games</label>
-          <label><input type="checkbox"/>Simulation</label>
-          <label><input type="checkbox"/>Turn Based Strategy</label>
-        </div>
-        <label><input type="checkbox"/>Home Automation</label>
-        <label><input type="checkbox"/>Internet</label>
-        <div class="child-category">
-          <label><input type="checkbox"/>File Transfer Protocol (FTP)</label>
-          <label><input type="checkbox"/>Finger</label>
-          <label><input type="checkbox"/>Log Analysis</label>
-          <label><input type="checkbox"/>Name Service (DNS)</label>
-          <label><input type="checkbox"/>Proxy Servers</label>
-          <label><input type="checkbox"/>WAP</label>
-          <label><input type="checkbox"/>WWW/HTTP</label>
-          <div class="child-category">
-            <label><input type="checkbox"/>Browsers</label>
-            <label><input type="checkbox"/>Dynamic Content</label>
-            <div class="child-category">
-              <label><input type="checkbox"/>CGI Tools/Libraries</label>
-              <label><input type="checkbox"/>Message Boards</label>
-              <label><input type="checkbox"/>News/Diary</label>
-              <label><input type="checkbox"/>Page Counters</label>
-            </div>
-            <label><input type="checkbox"/>HTTP Servers</label>
-            <label><input type="checkbox"/>Indexing/Search</label>
-            <label><input type="checkbox"/>Session</label>
-            <label><input type="checkbox"/>Site Management</label>
-            <div class="child-category">
-              <label><input type="checkbox"/>Link Checking</label>
-            </div>
-            <label><input type="checkbox"/>WSGI</label>
-            <div class="child-category">
-              <label><input type="checkbox"/>Application</label>
-              <label><input type="checkbox"/>Middleware</label>
-              <label><input type="checkbox"/>Server</label>
-            </div>
-          </div>
-          <label><input type="checkbox"/>Z39.50</label>
-        </div>
-        <label><input type="checkbox"/>Multimedia</label>
-        <div class="child-category">
-          <label><input type="checkbox"/>Graphics</label>
-          <div class="child-category">
-            <label><input type="checkbox"/>3D Modeling</label>
-            <label><input type="checkbox"/>3D Rendering</label>
-            <label><input type="checkbox"/>Capture</label>
-            <div class="child-category">
-              <label><input type="checkbox"/>Digital Camera</label>
-              <label><input type="checkbox"/>Scanners</label>
-              <label><input type="checkbox"/>Screen Capture</label>
-            </div>
-            <label><input type="checkbox"/>Editors</label>
-            <div class="child-category">
-              <label><input type="checkbox"/>Raster-Based</label>
-              <label><input type="checkbox"/>Vector-Based</label>
-            </div>
-            <label><input type="checkbox"/>Graphics Conversion</label>
-            <label><input type="checkbox"/>Presentation</label>
-            <label><input type="checkbox"/>Viewers</label>
-          </div>
-          <label><input type="checkbox"/>Sound/Audio</label>
-          <div class="child-category">
-            <label><input type="checkbox"/>Analysis</label>
-            <label><input type="checkbox"/>Capture/Recording</label>
-            <label><input type="checkbox"/>CD Audio</label>
-            <div class="child-category">
-              <label><input type="checkbox"/>CD Playing</label>
-              <label><input type="checkbox"/>CD Ripping</label>
-              <label><input type="checkbox"/>CD Writing</label>
-            </div>
-            <label><input type="checkbox"/>Conversion</label>
-            <label><input type="checkbox"/>Editors</label>
-            <label><input type="checkbox"/>MIDI</label>
-            <label><input type="checkbox"/>Mixers</label>
-            <label><input type="checkbox"/>Players</label>
-            <div class="child-category">
-              <label><input type="checkbox"/>MP3</label>
-            </div>
-            <label><input type="checkbox"/>Sound Synthesis</label>
-            <label><input type="checkbox"/>Speech</label>
-          </div>
-          <label><input type="checkbox"/>Video</label>
-          <div class="child-category">
-            <label><input type="checkbox"/>Capture</label>
-            <label><input type="checkbox"/>Conversion</label>
-            <label><input type="checkbox"/>Display</label>
-            <label><input type="checkbox"/>Non-Linear Editor</label>
-          </div>
-        </div>
-        <label><input type="checkbox"/>Office/Business</label>
-        <div class="child-category">
-          <label><input type="checkbox"/>Financial</label>
-          <div class="child-category">
-            <label><input type="checkbox"/>Accounting</label>
-            <label><input type="checkbox"/>Investment</label>
-            <label><input type="checkbox"/>Point-Of-Sale</label>
-            <label><input type="checkbox"/>Spreadsheet</label>
-          </div>
-          <label><input type="checkbox"/>Groupware</label>
-          <label><input type="checkbox"/>News/Diary</label>
-          <label><input type="checkbox"/>Office Suites</label>
-          <label><input type="checkbox"/>Scheduling</label>
-        </div>
-        <label><input type="checkbox"/>Other/Nonlisted Topic</label>
-        <label><input type="checkbox"/>Printing</label>
-        <label><input type="checkbox"/>Religion</label>
-        <label><input type="checkbox"/>Scientific/Engineering</label>
-        <div class="child-category">
-          <label><input type="checkbox"/>Artificial Intelligence</label>
-          <label><input type="checkbox"/>Artificial Life</label>
-          <label><input type="checkbox"/>Astronomy</label>
-          <label><input type="checkbox"/>Atmospheric Science</label>
-          <label><input type="checkbox"/>Bio-Informatics</label>
-          <label><input type="checkbox"/>Chemistry</label>
-          <label><input type="checkbox"/>Electronic Design Automation (EDA)</label>
-          <label><input type="checkbox"/>GIS</label>
-          <label><input type="checkbox"/>Human Machine Interfaces</label>
-          <label><input type="checkbox"/>Image Recognition</label>
-          <label><input type="checkbox"/>Information Analysis</label>
-          <label><input type="checkbox"/>Interface Engine/Protocol Translator</label>
-          <label><input type="checkbox"/>Mathematics</label>
-          <label><input type="checkbox"/>Medical Science Apps.</label>
-          <label><input type="checkbox"/>Physics</label>
-          <label><input type="checkbox"/>Visualization</label>
-        </div>
-        <label><input type="checkbox"/>Security</label>
-        <div class="child-category">
-          <label><input type="checkbox"/>Cryptography</label>
-        </div>
-        <label><input type="checkbox"/>Sociology</label>
-        <div class="child-category">
-          <label><input type="checkbox"/>Genealogy</label>
-          <label><input type="checkbox"/>History</label>
-        </div>
-        <label><input type="checkbox"/>Software Development</label>
-        <div class="child-category">
-          <label><input type="checkbox"/>Assemblers</label>
-          <label><input type="checkbox"/>Bug Tracking</label>
-          <label><input type="checkbox"/>Build Tools</label>
-          <label><input type="checkbox"/>Code Generators</label>
-          <label><input type="checkbox"/>Compilers</label>
-          <label><input type="checkbox"/>Debuggers</label>
-          <label><input type="checkbox"/>Disassemblers</label>
-          <label><input type="checkbox"/>Documentation</label>
-          <label><input type="checkbox"/>Embedded Systems</label>
-          <label><input type="checkbox"/>Internationalization</label>
-          <label><input type="checkbox"/>Interpreters</label>
-          <label><input type="checkbox"/>Libraries</label>
-          <div class="child-category">
-            <label><input type="checkbox"/>Application Frameworks</label>
-            <label><input type="checkbox"/>Java Libraries</label>
-            <label><input type="checkbox"/>Perl Modules</label>
-            <label><input type="checkbox"/>PHP Classes</label>
-            <label><input type="checkbox"/>Pike Modules</label>
-            <label><input type="checkbox"/>pygame</label>
-            <label><input type="checkbox"/>Python Modules</label>
-            <label><input type="checkbox"/>Ruby Modules</label>
-            <label><input type="checkbox"/>Tcl Extensions</label>
-          </div>
-          <label><input type="checkbox"/>Localization</label>
-          <label><input type="checkbox"/>Object Brokering</label>
-          <div class="child-category">
-            <label><input type="checkbox"/>CORBA</label>
-          </div>
-          <label><input type="checkbox"/>Pre-processors</label>
-          <label><input type="checkbox"/>Quality Assurance</label>
-          <label><input type="checkbox"/>Testing</label>
-          <div class="child-category">
-            <label><input type="checkbox"/>Traffic Generation</label>
-          </div>
-          <label><input type="checkbox"/>User Interfaces</label>
-          <label><input type="checkbox"/>Version Control</label>
-          <div class="child-category">
-            <label><input type="checkbox"/>CVS</label>
-            <label><input type="checkbox"/>RCS</label>
-            <label><input type="checkbox"/>SCCS</label>
-          </div>
-          <label><input type="checkbox"/>Widget Sets</label>
-        </div>
+      </div>
+      <label><input type="checkbox"/><span>REBOL</span></label>
+      <label><input type="checkbox"/><span>Rexx</span></label>
+      <label><input type="checkbox"/><span>Ruby</span></label>
+      <label><input type="checkbox"/><span>Scheme</span></label>
+      <label><input type="checkbox"/><span>Simula</span></label>
+      <label><input type="checkbox"/><span>Smalltalk</span></label>
+      <label><input type="checkbox"/><span>SQL</span></label>
+      <label><input type="checkbox"/><span>Tcl</span></label>
+      <label><input type="checkbox"/><span>Unix Shell</span></label>
+      <label><input type="checkbox"/><span>Visual Basic</span></label>
+      <label><input type="checkbox"/><span>XBasic</span></label>
+      <label><input type="checkbox"/><span>YACC</span></label>
+      <label><input type="checkbox"/><span>Zope</span></label>
+    </div>
 
-        <label><input type="checkbox"/>System</label>
+    <a href="javascript:void(0)" class="expander-trigger expander-hidden">By Topic</a>
+    <div class="expander-content">
+      <label><input type="checkbox"/>Adaptive Technologies</label>
+      <label><input type="checkbox"/>Artistic Software</label>
+      <label><input type="checkbox"/>Communications</label>
+      <div class="child-category">
+        <label><input type="checkbox"/>BBS</label>
+        <label><input type="checkbox"/>Chat</label>
         <div class="child-category">
-          <label><input type="checkbox"/>Archiving</label>
-          <div class="child-category">
-            <label><input type="checkbox"/>Backup</label>
-            <label><input type="checkbox"/>Compression</label>
-            <label><input type="checkbox"/>Mirroring</label>
-            <label><input type="checkbox"/>Packaging</label>
-          </div>
-          <label><input type="checkbox"/>Benchmark</label>
-          <label><input type="checkbox"/>Boot</label>
-          <div class="child-category">
-            <label><input type="checkbox"/>Init</label>
-          </div>
-          <label><input type="checkbox"/>Clustering</label>
-          <label><input type="checkbox"/>Console Fonts</label>
-          <label><input type="checkbox"/>Distributed Computing</label>
-          <label><input type="checkbox"/>Emulators</label>
-          <label><input type="checkbox"/>Filesystems</label>
-          <label><input type="checkbox"/>Hardware</label>
-          <div class="child-category">
-            <label><input type="checkbox"/>Hardware Drivers</label>
-            <label><input type="checkbox"/>Mainframes</label>
-            <label><input type="checkbox"/>Symmetric Multi-processing</label>
-          </div>
-          <label><input type="checkbox"/>Installation/Setup</label>
-          <label><input type="checkbox"/>Logging</label>
-          <label><input type="checkbox"/>Monitoring</label>
-          <label><input type="checkbox"/>Networking</label>
-          <div class="child-category">
-            <label><input type="checkbox"/>Firewalls</label>
-            <label><input type="checkbox"/>Monitoring</label>
-            <div class="child-category">
-              <label><input type="checkbox"/>Hardware Watchdog</label>
-            </div>
-            <label><input type="checkbox"/>Time Synchronization</label>
-          </div>
-          <label><input type="checkbox"/>Operating System</label>
-          <label><input type="checkbox"/>Operating System Kernels</label>
-          <div class="child-category">
-            <label><input type="checkbox"/>BSD</label>
-            <label><input type="checkbox"/>GNU Hurd</label>
-            <label><input type="checkbox"/>Linux</label>
-          </div>
-          <label><input type="checkbox"/>Power (UPS)</label>
-          <label><input type="checkbox"/>Recovery Tools</label>
-          <label><input type="checkbox"/>Shells</label>
-          <label><input type="checkbox"/>Software Distribution</label>
-          <label><input type="checkbox"/>Systems Administration</label>
-          <div class="child-category">
-            <label><input type="checkbox"/>Authentication/Directory</label>
-            <div class="child-category">
-              <label><input type="checkbox"/>LDAP</label>
-              <label><input type="checkbox"/>NIS</label>
-            </div>
-          </div>
-          <label><input type="checkbox"/>System Shells</label>
+          <label><input type="checkbox"/>AOL Instant Messenger</label>
+          <label><input type="checkbox"/>ICQ</label>
+          <label><input type="checkbox"/>Internet Relay Chat</label>
+          <label><input type="checkbox"/>Unix Talk</label>
         </div>
-        <label><input type="checkbox"/>Terminals</label>
+        <label><input type="checkbox"/>Conferencing</label>
+        <label><input type="checkbox"/>Email</label>
         <div class="child-category">
-          <label><input type="checkbox"/>Serial</label>
-          <label><input type="checkbox"/>Telnet</label>
-          <label><input type="checkbox"/>Terminal Emulators/X Terminals</label>
-        </div>
-        <label><input type="checkbox"/>Text Editors</label>
-        <div class="child-category">
-          <label><input type="checkbox"/>Documentation</label>
-          <label><input type="checkbox"/>Emacs</label>
-          <label><input type="checkbox"/>Integrated Development Environments (IDE)</label>
-          <label><input type="checkbox"/>Text Processing</label>
-          <label><input type="checkbox"/>Word Processors</label>
-        </div>
-        <label><input type="checkbox"/>Text Processing</label>
-        <div class="child-category">
+          <label><input type="checkbox"/>Address Book</label>
+          <label><input type="checkbox"/>Email Clients (MUA)</label>
           <label><input type="checkbox"/>Filters</label>
-          <label><input type="checkbox"/>Fonts</label>
-          <label><input type="checkbox"/>General</label>
-          <label><input type="checkbox"/>Indexing</label>
-          <label><input type="checkbox"/>Linguistic</label>
-          <label><input type="checkbox"/>Markup</label>
+          <label><input type="checkbox"/>Mailing List Servers</label>
+          <label><input type="checkbox"/>Mail Transport Agents</label>
+          <label><input type="checkbox"/>Post-Office</label>
           <div class="child-category">
-            <label><input type="checkbox"/>HTML</label>
-            <label><input type="checkbox"/>LaTeX</label>
-            <label><input type="checkbox"/>SGML</label>
-            <label><input type="checkbox"/>VRML</label>
-            <label><input type="checkbox"/>XML</label>
+            <label><input type="checkbox"/>IMAP</label>
+            <label><input type="checkbox"/>POP3</label>
           </div>
         </div>
-        <label><input type="checkbox"/>Utilities</label>
+        <label><input type="checkbox"/>Fax</label>
+        <label><input type="checkbox"/>FIDO</label>
+        <label><input type="checkbox"/>File Sharing</label>
+        <div class="child-category">
+          <label><input type="checkbox"/>Gnutella</label>
+          <label><input type="checkbox"/>Napster</label>
+        </div>
+        <label><input type="checkbox"/>Ham Radio</label>
+        <label><input type="checkbox"/>Internet Phone</label>
+        <label><input type="checkbox"/>Telephony</label>
+        <label><input type="checkbox"/>Usenet News</label>
       </div>
+      <label><input type="checkbox"/>Database</label>
+      <div class="child-category">
+        <label><input type="checkbox"/>Database Engines/Servers</label>
+        <label><input type="checkbox"/>Front-Ends</label>
+      </div>
+      <label><input type="checkbox"/>Desktop Environment</label>
+      <div class="child-category">
+        <label><input type="checkbox"/>File Managers</label>
+        <label><input type="checkbox"/>Gnome</label>
+        <label><input type="checkbox"/>GNUstep</label>
+        <label><input type="checkbox"/>K Desktop Environment (KDE)</label>
+        <div class="child-category">
+          <label><input type="checkbox"/>Themes</label>
+        </div>
+        <label><input type="checkbox"/>PicoGUI</label>
+        <div class="child-category">
+          <label><input type="checkbox"/>Applications</label>
+          <label><input type="checkbox"/>Themes</label>
+        </div>
+        <label><input type="checkbox"/>Screen Savers</label>
+        <label><input type="checkbox"/>Window Managers</label>
+        <div class="child-category">
+          <label><input type="checkbox"/>Afterstep</label>
+          <div class="child-category">
+            <label><input type="checkbox"/>Themes</label>
+          </div>
+          <label><input type="checkbox"/>Applets</label>
+          <label><input type="checkbox"/>Blackbox</label>
+          <div class="child-category">
+            <label><input type="checkbox"/>Themes</label>
+          </div>
+          <label><input type="checkbox"/>CTWM</label>
+          <div class="child-category">
+            <label><input type="checkbox"/>Themes</label>
+          </div>
+          <label><input type="checkbox"/>Enlightenment</label>
+          <div class="child-category">
+            <label><input type="checkbox"/>Epplets</label>
+            <label><input type="checkbox"/>Themes DR15</label>
+            <label><input type="checkbox"/>Themes DR16</label>
+            <label><input type="checkbox"/>Themes DR17</label>
+          </div>
+          <label><input type="checkbox"/>Fluxbox</label>
+          <div class="child-category">
+            <label><input type="checkbox"/>Themes</label>
+          </div>
+          <label><input type="checkbox"/>FVWM</label>
+          <div class="child-category">
+            <label><input type="checkbox"/>Themes</label>
+          </div>
+          <label><input type="checkbox"/>IceWM</label>
+          <div class="child-category">
+            <label><input type="checkbox"/>Themes</label>
+          </div>
+          <label><input type="checkbox"/>MetaCity</label>
+          <div class="child-category">
+            <label><input type="checkbox"/>Themes</label>
+          </div>
+          <label><input type="checkbox"/>Oroborus</label>
+          <div class="child-category">
+            <label><input type="checkbox"/>Themes</label>
+          </div>
+          <label><input type="checkbox"/>Sawfish</label>
+          <div class="child-category">
+            <label><input type="checkbox"/>Themes 0.30</label>
+            <label><input type="checkbox"/>Themes pre-0.30</label>
+          </div>
+          <label><input type="checkbox"/>Waimea</label>
+          <div class="child-category">
+            <label><input type="checkbox"/>Themes</label>
+          </div>
+          <label><input type="checkbox"/>Window Maker</label>
+          <div class="child-category">
+            <label><input type="checkbox"/>Applets</label>
+            <label><input type="checkbox"/>Themes</label>
+          </div>
+          <label><input type="checkbox"/>XFCE</label>
+          <div class="child-category">
+            <label><input type="checkbox"/>Themes</label>
+          </div>
+        </div>
+      </div>
+      <label><input type="checkbox"/>Documentation</label>
+      <div class="child-category">
+        <label><input type="checkbox"/>Sphinx</label>
+      </div>
+      <label><input type="checkbox"/>Education</label>
+      <div class="child-category">
+        <label><input type="checkbox"/>Computer Aided Instruction (CAI)</label>
+        <label><input type="checkbox"/>Testing</label>
+      </div>
+      <label><input type="checkbox"/>Games/Entertainment</label>
+      <div class="child-category">
+        <label><input type="checkbox"/>Arcade</label>
+        <label><input type="checkbox"/>Board Games</label>
+        <label><input type="checkbox"/>First Person Shooters</label>
+        <label><input type="checkbox"/>Fortune Cookies</label>
+        <label><input type="checkbox"/>Multi-User Dungeons (MUD)</label>
+        <label><input type="checkbox"/>Puzzle Games</label>
+        <label><input type="checkbox"/>Real Time Strategy</label>
+        <label><input type="checkbox"/>Role-Playing</label>
+        <label><input type="checkbox"/>Side-Scrolling/Arcade Games</label>
+        <label><input type="checkbox"/>Simulation</label>
+        <label><input type="checkbox"/>Turn Based Strategy</label>
+      </div>
+      <label><input type="checkbox"/>Home Automation</label>
+      <label><input type="checkbox"/>Internet</label>
+      <div class="child-category">
+        <label><input type="checkbox"/>File Transfer Protocol (FTP)</label>
+        <label><input type="checkbox"/>Finger</label>
+        <label><input type="checkbox"/>Log Analysis</label>
+        <label><input type="checkbox"/>Name Service (DNS)</label>
+        <label><input type="checkbox"/>Proxy Servers</label>
+        <label><input type="checkbox"/>WAP</label>
+        <label><input type="checkbox"/>WWW/HTTP</label>
+        <div class="child-category">
+          <label><input type="checkbox"/>Browsers</label>
+          <label><input type="checkbox"/>Dynamic Content</label>
+          <div class="child-category">
+            <label><input type="checkbox"/>CGI Tools/Libraries</label>
+            <label><input type="checkbox"/>Message Boards</label>
+            <label><input type="checkbox"/>News/Diary</label>
+            <label><input type="checkbox"/>Page Counters</label>
+          </div>
+          <label><input type="checkbox"/>HTTP Servers</label>
+          <label><input type="checkbox"/>Indexing/Search</label>
+          <label><input type="checkbox"/>Session</label>
+          <label><input type="checkbox"/>Site Management</label>
+          <div class="child-category">
+            <label><input type="checkbox"/>Link Checking</label>
+          </div>
+          <label><input type="checkbox"/>WSGI</label>
+          <div class="child-category">
+            <label><input type="checkbox"/>Application</label>
+            <label><input type="checkbox"/>Middleware</label>
+            <label><input type="checkbox"/>Server</label>
+          </div>
+        </div>
+        <label><input type="checkbox"/>Z39.50</label>
+      </div>
+      <label><input type="checkbox"/>Multimedia</label>
+      <div class="child-category">
+        <label><input type="checkbox"/>Graphics</label>
+        <div class="child-category">
+          <label><input type="checkbox"/>3D Modeling</label>
+          <label><input type="checkbox"/>3D Rendering</label>
+          <label><input type="checkbox"/>Capture</label>
+          <div class="child-category">
+            <label><input type="checkbox"/>Digital Camera</label>
+            <label><input type="checkbox"/>Scanners</label>
+            <label><input type="checkbox"/>Screen Capture</label>
+          </div>
+          <label><input type="checkbox"/>Editors</label>
+          <div class="child-category">
+            <label><input type="checkbox"/>Raster-Based</label>
+            <label><input type="checkbox"/>Vector-Based</label>
+          </div>
+          <label><input type="checkbox"/>Graphics Conversion</label>
+          <label><input type="checkbox"/>Presentation</label>
+          <label><input type="checkbox"/>Viewers</label>
+        </div>
+        <label><input type="checkbox"/>Sound/Audio</label>
+        <div class="child-category">
+          <label><input type="checkbox"/>Analysis</label>
+          <label><input type="checkbox"/>Capture/Recording</label>
+          <label><input type="checkbox"/>CD Audio</label>
+          <div class="child-category">
+            <label><input type="checkbox"/>CD Playing</label>
+            <label><input type="checkbox"/>CD Ripping</label>
+            <label><input type="checkbox"/>CD Writing</label>
+          </div>
+          <label><input type="checkbox"/>Conversion</label>
+          <label><input type="checkbox"/>Editors</label>
+          <label><input type="checkbox"/>MIDI</label>
+          <label><input type="checkbox"/>Mixers</label>
+          <label><input type="checkbox"/>Players</label>
+          <div class="child-category">
+            <label><input type="checkbox"/>MP3</label>
+          </div>
+          <label><input type="checkbox"/>Sound Synthesis</label>
+          <label><input type="checkbox"/>Speech</label>
+        </div>
+        <label><input type="checkbox"/>Video</label>
+        <div class="child-category">
+          <label><input type="checkbox"/>Capture</label>
+          <label><input type="checkbox"/>Conversion</label>
+          <label><input type="checkbox"/>Display</label>
+          <label><input type="checkbox"/>Non-Linear Editor</label>
+        </div>
+      </div>
+      <label><input type="checkbox"/>Office/Business</label>
+      <div class="child-category">
+        <label><input type="checkbox"/>Financial</label>
+        <div class="child-category">
+          <label><input type="checkbox"/>Accounting</label>
+          <label><input type="checkbox"/>Investment</label>
+          <label><input type="checkbox"/>Point-Of-Sale</label>
+          <label><input type="checkbox"/>Spreadsheet</label>
+        </div>
+        <label><input type="checkbox"/>Groupware</label>
+        <label><input type="checkbox"/>News/Diary</label>
+        <label><input type="checkbox"/>Office Suites</label>
+        <label><input type="checkbox"/>Scheduling</label>
+      </div>
+      <label><input type="checkbox"/>Other/Nonlisted Topic</label>
+      <label><input type="checkbox"/>Printing</label>
+      <label><input type="checkbox"/>Religion</label>
+      <label><input type="checkbox"/>Scientific/Engineering</label>
+      <div class="child-category">
+        <label><input type="checkbox"/>Artificial Intelligence</label>
+        <label><input type="checkbox"/>Artificial Life</label>
+        <label><input type="checkbox"/>Astronomy</label>
+        <label><input type="checkbox"/>Atmospheric Science</label>
+        <label><input type="checkbox"/>Bio-Informatics</label>
+        <label><input type="checkbox"/>Chemistry</label>
+        <label><input type="checkbox"/>Electronic Design Automation (EDA)</label>
+        <label><input type="checkbox"/>GIS</label>
+        <label><input type="checkbox"/>Human Machine Interfaces</label>
+        <label><input type="checkbox"/>Image Recognition</label>
+        <label><input type="checkbox"/>Information Analysis</label>
+        <label><input type="checkbox"/>Interface Engine/Protocol Translator</label>
+        <label><input type="checkbox"/>Mathematics</label>
+        <label><input type="checkbox"/>Medical Science Apps.</label>
+        <label><input type="checkbox"/>Physics</label>
+        <label><input type="checkbox"/>Visualization</label>
+      </div>
+      <label><input type="checkbox"/>Security</label>
+      <div class="child-category">
+        <label><input type="checkbox"/>Cryptography</label>
+      </div>
+      <label><input type="checkbox"/>Sociology</label>
+      <div class="child-category">
+        <label><input type="checkbox"/>Genealogy</label>
+        <label><input type="checkbox"/>History</label>
+      </div>
+      <label><input type="checkbox"/>Software Development</label>
+      <div class="child-category">
+        <label><input type="checkbox"/>Assemblers</label>
+        <label><input type="checkbox"/>Bug Tracking</label>
+        <label><input type="checkbox"/>Build Tools</label>
+        <label><input type="checkbox"/>Code Generators</label>
+        <label><input type="checkbox"/>Compilers</label>
+        <label><input type="checkbox"/>Debuggers</label>
+        <label><input type="checkbox"/>Disassemblers</label>
+        <label><input type="checkbox"/>Documentation</label>
+        <label><input type="checkbox"/>Embedded Systems</label>
+        <label><input type="checkbox"/>Internationalization</label>
+        <label><input type="checkbox"/>Interpreters</label>
+        <label><input type="checkbox"/>Libraries</label>
+        <div class="child-category">
+          <label><input type="checkbox"/>Application Frameworks</label>
+          <label><input type="checkbox"/>Java Libraries</label>
+          <label><input type="checkbox"/>Perl Modules</label>
+          <label><input type="checkbox"/>PHP Classes</label>
+          <label><input type="checkbox"/>Pike Modules</label>
+          <label><input type="checkbox"/>pygame</label>
+          <label><input type="checkbox"/>Python Modules</label>
+          <label><input type="checkbox"/>Ruby Modules</label>
+          <label><input type="checkbox"/>Tcl Extensions</label>
+        </div>
+        <label><input type="checkbox"/>Localization</label>
+        <label><input type="checkbox"/>Object Brokering</label>
+        <div class="child-category">
+          <label><input type="checkbox"/>CORBA</label>
+        </div>
+        <label><input type="checkbox"/>Pre-processors</label>
+        <label><input type="checkbox"/>Quality Assurance</label>
+        <label><input type="checkbox"/>Testing</label>
+        <div class="child-category">
+          <label><input type="checkbox"/>Traffic Generation</label>
+        </div>
+        <label><input type="checkbox"/>User Interfaces</label>
+        <label><input type="checkbox"/>Version Control</label>
+        <div class="child-category">
+          <label><input type="checkbox"/>CVS</label>
+          <label><input type="checkbox"/>RCS</label>
+          <label><input type="checkbox"/>SCCS</label>
+        </div>
+        <label><input type="checkbox"/>Widget Sets</label>
+      </div>
+
+      <label><input type="checkbox"/>System</label>
+      <div class="child-category">
+        <label><input type="checkbox"/>Archiving</label>
+        <div class="child-category">
+          <label><input type="checkbox"/>Backup</label>
+          <label><input type="checkbox"/>Compression</label>
+          <label><input type="checkbox"/>Mirroring</label>
+          <label><input type="checkbox"/>Packaging</label>
+        </div>
+        <label><input type="checkbox"/>Benchmark</label>
+        <label><input type="checkbox"/>Boot</label>
+        <div class="child-category">
+          <label><input type="checkbox"/>Init</label>
+        </div>
+        <label><input type="checkbox"/>Clustering</label>
+        <label><input type="checkbox"/>Console Fonts</label>
+        <label><input type="checkbox"/>Distributed Computing</label>
+        <label><input type="checkbox"/>Emulators</label>
+        <label><input type="checkbox"/>Filesystems</label>
+        <label><input type="checkbox"/>Hardware</label>
+        <div class="child-category">
+          <label><input type="checkbox"/>Hardware Drivers</label>
+          <label><input type="checkbox"/>Mainframes</label>
+          <label><input type="checkbox"/>Symmetric Multi-processing</label>
+        </div>
+        <label><input type="checkbox"/>Installation/Setup</label>
+        <label><input type="checkbox"/>Logging</label>
+        <label><input type="checkbox"/>Monitoring</label>
+        <label><input type="checkbox"/>Networking</label>
+        <div class="child-category">
+          <label><input type="checkbox"/>Firewalls</label>
+          <label><input type="checkbox"/>Monitoring</label>
+          <div class="child-category">
+            <label><input type="checkbox"/>Hardware Watchdog</label>
+          </div>
+          <label><input type="checkbox"/>Time Synchronization</label>
+        </div>
+        <label><input type="checkbox"/>Operating System</label>
+        <label><input type="checkbox"/>Operating System Kernels</label>
+        <div class="child-category">
+          <label><input type="checkbox"/>BSD</label>
+          <label><input type="checkbox"/>GNU Hurd</label>
+          <label><input type="checkbox"/>Linux</label>
+        </div>
+        <label><input type="checkbox"/>Power (UPS)</label>
+        <label><input type="checkbox"/>Recovery Tools</label>
+        <label><input type="checkbox"/>Shells</label>
+        <label><input type="checkbox"/>Software Distribution</label>
+        <label><input type="checkbox"/>Systems Administration</label>
+        <div class="child-category">
+          <label><input type="checkbox"/>Authentication/Directory</label>
+          <div class="child-category">
+            <label><input type="checkbox"/>LDAP</label>
+            <label><input type="checkbox"/>NIS</label>
+          </div>
+        </div>
+        <label><input type="checkbox"/>System Shells</label>
+      </div>
+      <label><input type="checkbox"/>Terminals</label>
+      <div class="child-category">
+        <label><input type="checkbox"/>Serial</label>
+        <label><input type="checkbox"/>Telnet</label>
+        <label><input type="checkbox"/>Terminal Emulators/X Terminals</label>
+      </div>
+      <label><input type="checkbox"/>Text Editors</label>
+      <div class="child-category">
+        <label><input type="checkbox"/>Documentation</label>
+        <label><input type="checkbox"/>Emacs</label>
+        <label><input type="checkbox"/>Integrated Development Environments (IDE)</label>
+        <label><input type="checkbox"/>Text Processing</label>
+        <label><input type="checkbox"/>Word Processors</label>
+      </div>
+      <label><input type="checkbox"/>Text Processing</label>
+      <div class="child-category">
+        <label><input type="checkbox"/>Filters</label>
+        <label><input type="checkbox"/>Fonts</label>
+        <label><input type="checkbox"/>General</label>
+        <label><input type="checkbox"/>Indexing</label>
+        <label><input type="checkbox"/>Linguistic</label>
+        <label><input type="checkbox"/>Markup</label>
+        <div class="child-category">
+          <label><input type="checkbox"/>HTML</label>
+          <label><input type="checkbox"/>LaTeX</label>
+          <label><input type="checkbox"/>SGML</label>
+          <label><input type="checkbox"/>VRML</label>
+          <label><input type="checkbox"/>XML</label>
+        </div>
+      </div>
+      <label><input type="checkbox"/>Utilities</label>
     </div>
   </div>
 </aside>

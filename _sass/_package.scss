@@ -108,7 +108,7 @@
 
 .package-status {
   padding: 15px 0 5px 0;
-  background-color: #dadada;
+  background-color: darken($base-grey, 10);
 
   .status-badge {
     @include span-columns(3);
@@ -205,7 +205,8 @@
     }
 
     li {
-      line-height: 40px;
+      line-height: 20px;
+      padding: 10px 0;
       display: inline-block;
       margin-right: 30px;
 
@@ -218,7 +219,6 @@
       a i {
         margin-right: 4px;
         font-size: 16px;
-
       }
     }
   }
