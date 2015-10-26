@@ -36,7 +36,10 @@ permalink: /package/
         <li><a href="#"><i class="fa fa-slack"></i>Slack</a></li>
         <li><a href="#"><i class="fa fa-external-link-square"></i>Another Link</a></li>
       </ul>
-      <p class="author-info">Last updated 10 months ago by <a href="{{ "/author/" | prepend: site.baseurl }}">Author Name <img src="http://placehold.it/40x40"></a></p>
+      <p class="author-info">
+        <span>Last updated 10 months ago by <a href="{{ "/author/" | prepend: site.baseurl }}">Author Name</a></span>
+        <a href="{{ "/author/" | prepend: site.baseurl }}"><img src="http://placehold.it/40x40"></a>
+      </p>
     </div>
   </div>
 </section>
@@ -100,7 +103,7 @@ permalink: /package/
 
     <h2>Reverse Dependencies (3)</h2>
     <p>The following packages rely on <em>Package Verbose Name</em>:</p>
-    <div class="package-list">
+    <div class="package-list no-margin">
       <div class="package-snippet">
         <h3 class="title"><a href="{{ "/package/" | prepend: site.baseurl }}">package_title</a></h3>
         <p class="meta">
