@@ -13,12 +13,13 @@ $base-line-height: 1.4;
 $code-font: 'Source Code Pro', monospace;
 $spacing-unit:     30px;
 
-$text-color:       #464646;
-$background-color: #fdfdfd;
 $brand-color:      #006dad;
-$white:            #fff;
-$base-grey:        #ececec;
 $highlight-color:  #ffd343;
+
+$white:            #fff;
+$background-color: #fdfdfd;
+$base-grey:        #ececec;
+$text-color:       #464646;
 
 @import
         "bourbon/bourbon", // provides a range of SASS mixins to utilise in our custom code

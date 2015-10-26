@@ -35,6 +35,13 @@ ul, ol, dl, figure,
     margin-bottom: $spacing-unit / 2;
 }
 
+p:last-child, pre:last-child,
+ul:last-child, ol:last-child, dl:last-child, figure:last-child,
+%vertical-rhythm {
+    margin-bottom: 0;
+}
+
+
 
 /**
  * Images
@@ -218,7 +225,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
   text-align: left;
-  margin-top: 25px;
+  margin: 25px 0 0 0;
   border: 0;
   font-size: 15px;
   width: 100%;
@@ -243,10 +250,6 @@ table {
     th {
       vertical-align: bottom;
       font-weight: 600;
-
-      a {
-        color: $white;
-      }
     }
   }
 

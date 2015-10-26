@@ -21,7 +21,7 @@ permalink: /package/
 <section class="package-status">
   <div class="container">
     <a class="bad status-badge" href="#">Newer version available (v3.2)</a>
-    <a class="good status-badge" href="#">Dependencies up to date</a>
+    <a class="dependencies good status-badge" href="#">Dependencies up to date</a>
     <a class="unknown status-badge" href="#">Test status unknown</a>
     <a class="unknown status-badge" href="#">Test coverage unknown</a>
   </div>
