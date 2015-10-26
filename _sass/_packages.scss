@@ -10,6 +10,15 @@ aside.filter-results {
   padding: 60px 0;
 }
 
+@media only screen and (max-width: 1000px){
+  aside.filter-results,
+  .search-results {
+    width: 100%;
+    margin: 0;
+    padding: 30px 0;
+  }
+}
+
 // Top of package list
 .order-results {
   display: table;
@@ -27,6 +36,18 @@ aside.filter-results {
 
     select {
       margin-left: 5px;
+    }
+  }
+}
+
+@media only screen and (max-width: 700px){
+  .order-results {
+    display: block;
+
+    .description,
+    .order {
+      display: block;
+      text-align: left;
     }
   }
 }
@@ -90,6 +111,10 @@ aside.filter-results {
 }
 
 .available-filters {
+  @media only screen and (max-width: 1000px){
+    display: none;
+  }
+
   label {
     text-transform: uppercase;
     font-weight: 500;

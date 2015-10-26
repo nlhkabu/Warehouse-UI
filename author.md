@@ -4,18 +4,23 @@ title: Author
 permalink: /author/
 ---
 
-<section class="author-details">
+<section class="author-banner">
   <div class="container">
-    <img src="http://placehold.it/100x100">
-    <div class="author-meta">
-      <h1>Author Name or Username <span class="highlight-badge">Prolific Pythonista</span></h1>
-      <p class="dates">
-        <span class="joined">Joined PyPI on Sept 22, 2011</span>
-        Last seen on Dec 12, 2015
-      </p>
-      <div class="bio">
-        <p>This person has written a short bio, which we will need to add to the User model and display here.</p>
-        <p>It might be over several lines and include a <a href="">Link</a> which we will need to make a no-follow.</p>
+    <div class="author-details">
+      <div class="profile-img">
+        <img src="http://placehold.it/110x110" alt="author name"/>
+      </div>
+      <div class="author-meta">
+        <h1>Author Name</h1>
+        <span class="highlight-badge prolific">Prolific Pythonista</span>
+        <p class="dates">
+          <span class="joined">Joined PyPI on Sept 22, 2011</span>
+          <span>Last seen on Dec 12, 2015</span>
+        </p>
+        <div class="bio">
+          <p>This person has written a short bio, which we will need to add to the User model and display here.</p>
+          <p>It might be over several lines and include a <a href="">Link</a> which we will need to make a no-follow.</p>
+        </div>
       </div>
     </div>
   </div>
