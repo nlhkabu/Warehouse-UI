@@ -16,8 +16,16 @@ permalink: /packages/
 </section>
 
 <div class="applied-filters">
-  <span class="filter"><i class="fa fa-filter"></i>Framework :: Django <a href="#"><i class="fa fa-close"></i></a></span>
-  <span class="filter"><i class="fa fa-filter"></i>Topic :: Communications <a href="#"><i class="fa fa-close"></i></a></span>
+  <div class="filter">
+    <i class="fa fa-filter"></i>
+    <span>Framework :: Django</span>
+    <a href="#"><i class="fa fa-close"></i></a>
+  </div>
+  <div class="filter">
+    <i class="fa fa-filter"></i>
+    <span>Topic :: Communications</span>
+    <a href="#"><i class="fa fa-close"></i></a>
+  </div>
   <a href="#" class="add-filter button small">Add Filter</a>
 </div>
 

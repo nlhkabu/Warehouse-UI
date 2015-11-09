@@ -30,7 +30,7 @@
 
       h1 {
         display: inline-block;
-        margin: 0 5px 5px 0;
+        margin: 10px 5px 5px 0;
 
         @media only screen and (max-width: 800px){
            font-size: 35px;
@@ -76,7 +76,7 @@
 
       .bio {
         font-style: italic;
-        margin: 20px 0 0 0;
+        margin: 25px 0 0 0;
 
         a {
          color: $white;

@@ -113,7 +113,8 @@ a {
   text-decoration: none;
 
   &:hover {
-    color: darken($brand-color, 15);
+    color: darken($brand-color, 10);
+    text-decoration: underline;
   }
 }
 
@@ -133,20 +134,39 @@ strong {
 
 /* Buttons */
 
-.button,
-input.button {
+#{$all-buttons},
+.button {
   font-size: 16px;
-  font-weight: normal;
-  color: lighten($text-color, 10);
+  font-weight: 600;
   cursor: pointer;
   text-decoration: none;
-  font-stretch: expanded;
-  padding: 5px 15px;
-  border: 2px solid #dadada;
+  padding: 7px 15px;
+  color: lighten($text-color, 10);
+  border: 2px solid darken($base-grey, 10);
   border-radius: 3px;
   display: inline-block;
-  color: $text-color;
-  line-height: 24px;
+}
+
+.button.large {
+  font-size: 20px;
+  padding: 7px 15px;
+}
+
+.button.small {
+  font-size: 14px;
+  padding: 4px 10px;
+}
+
+.button:focus,
+#{$all-buttons-focus},
+.button:hover,
+#{$all-buttons-hover},
+.button:active,
+#{$all-buttons-active}  {
+  border: 2px solid $brand-color;
+  color: darken($brand-color, 10);
+  text-decoration: none;
+
 }
 
 .button.highlight,
@@ -171,17 +191,6 @@ input.button.dark {
     border-color: darken($brand-color, 21);
     background-color: darken($brand-color, 20);
   }
-}
-
-.button.large {
-  font-size: 20px;
-  padding: 9px 15px;
-}
-
-.button.small {
-  font-size: 14px;
-  line-height: 18px;
-  padding: 4px 10px;
 }
 
 .button-switch {
@@ -209,16 +218,24 @@ input.button.dark {
 
 /* Forms */
 
-input,
+input[type=text],
+input[type=password],
 select {
-  border-radius: 3px;
+  border-radius: 2px;
   box-sizing: border-box;
   font-family: $base-font-family;
   font-size: $base-font-size;
   background-color: $white;
-  border: 1px solid #ddd;
   padding: 8px;
   color: #464646;
+  height: 40px;
+  line-height: 22px;
+  border: 1px solid darken($base-grey, 10);
+
+  &:focus {
+    box-shadow: inset 0px 0px 0px 2px lighten($brand-color, 45);
+    border-color: lighten($brand-color, 45) !important;
+  }
 }
 
 select {

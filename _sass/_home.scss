@@ -31,13 +31,14 @@
   .search {
     input {
       font-size: 22px;
-      padding: 9px 10px;
+      padding: 5px 7px;
       margin: 0 2px 10px 0;
       display: inline-block;
       width: 600px;
       max-width: 70%;
       box-sizing: border-box;
-      border-color: darken($brand-color, 2);
+      border-color: $white;
+      height: 46px;
 
       @media only screen and (max-width: 400px){
         margin-right: 0;
@@ -45,10 +46,9 @@
     }
 
     .button {
-      position: relative;
-      top: -1px;
       max-width: 30%;
-      box-sizing: border-box;
+      position: relative; //Ugly hack to account for weird line height
+      top: -1px;
     }
 
     .button i.fa {
@@ -57,7 +57,6 @@
 
     @media only screen and (max-width: 400px){
        .button {
-         padding: 9px;
 
          i.fa {
            display: inline-block;

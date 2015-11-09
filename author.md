@@ -33,7 +33,7 @@ permalink: /author/
       <div class="package-snippet">
         <h3 class="title"><a href="{{ "/package/" | prepend: site.baseurl }}">package_title</a></h3>
         <p class="meta">
-          <em>Last updated on 12th December, 2015</em>
+          <em>Last updated on Dec 12, 2014</em>
         </p>
         <p class="description">
           Some description of the package goes right here.
@@ -42,7 +42,7 @@ permalink: /author/
       <div class="package-snippet">
         <h3 class="title"><a href="{{ "/package/" | prepend: site.baseurl }}">package_title</a></h3>
         <p class="meta">
-          <em>Last updated on 12th December, 2015</em>
+          <em>Last updated on Dec 12, 2014</em>
         </p>
         <p class="description">
           Some description of the package goes right here.
@@ -51,7 +51,7 @@ permalink: /author/
       <div class="package-snippet">
         <h3 class="title"><a href="{{ "/package/" | prepend: site.baseurl }}">package_title</a></h3>
         <p class="meta">
-          <em>Last updated on 12th December, 2015</em>
+          <em>Last updated on Dec 12, 2014</em>
         </p>
         <p class="description">
           Some description of the package goes right here.
@@ -60,7 +60,7 @@ permalink: /author/
       <div class="package-snippet">
         <h3 class="title"><a href="{{ "/package/" | prepend: site.baseurl }}">package_title</a></h3>
         <p class="meta">
-          <em>Last updated on 12th December, 2015</em>
+          <em>Last updated on Dec 12, 2014</em>
         </p>
         <p class="description">
           Some description of the package goes right here.
@@ -69,7 +69,7 @@ permalink: /author/
       <div class="package-snippet">
         <h3 class="title"><a href="{{ "/package/" | prepend: site.baseurl }}">package_title</a></h3>
         <p class="meta">
-          <em>Last updated on 12th December, 2015</em>
+          <em>Last updated on Dec 12, 2014</em>
         </p>
         <p class="description">
           Some description of the package goes right here.
@@ -78,7 +78,7 @@ permalink: /author/
       <div class="package-snippet">
         <h3 class="title"><a href="{{ "/package/" | prepend: site.baseurl }}">package_title</a></h3>
         <p class="meta">
-          <em>Last updated on 12th December, 2015</em>
+          <em>Last updated on Dec 12, 2014</em>
         </p>
         <p class="description">
           Some description of the package goes right here.
@@ -91,7 +91,7 @@ permalink: /author/
       <div class="package-snippet">
         <h3 class="title"><a href="{{ "/package/" | prepend: site.baseurl }}">package_title</a></h3>
         <p class="meta">
-          <em>Last updated on 12th December, 2015</em>
+          <em>Last updated on Dec 12, 2014</em>
         </p>
         <p class="description">
           Some description of the package goes right here.

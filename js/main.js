@@ -51,4 +51,18 @@ $(document).ready(function() {
     $('.filter-packages').hide();
   });
 
+  // Position PyPI warning message
+  function positionWarning(){
+    var height = $('section.warning').outerHeight();
+    $('body.test-pypi').css('paddingTop', height);
+  }
+
+  positionWarning();
+
+  $(window).resize(function(){
+    positionWarning();
+  });
+
+
+
 });

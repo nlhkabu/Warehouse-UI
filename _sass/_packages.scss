@@ -112,25 +112,32 @@ aside.filter-packages {
     text-transform: uppercase;
     font-weight: 500;
     font-size: 14px;
-    line-height: 18px;
-    padding: 6px 0 6px 6px;
+    line-height: 19px;
     border-radius: 2px;
     background-color: $brand-color;
     color: $white;
-    display: inline-block;
+    display: table;
     float: left;
     margin: 0 5px 10px 0;
 
     .fa-filter {
-      margin-right: 4px;
-      color: darken($brand-color, 5);
+      display: table-cell;
+      padding: 6px 0 6px 6px;
+      color: darken($brand-color, 7);
+      vertical-align: middle;
+    }
+
+    span {
+      display: table-cell;
+      padding: 6px;
+      vertical-align: middle;
     }
 
     a {
+      display: table-cell;
       color: $white;
-      padding: 6px;
       border-left: 1px solid rgba(255,255,255, .2);
-      margin-left: 6px;
+      padding: 6px;
     }
   }
 
