@@ -4,7 +4,7 @@ title: Author
 permalink: /author/
 ---
 
-<section class="author-banner">
+<section class="banner author-banner">
   <div class="container">
     <div class="author-details">
       <div class="profile-img">

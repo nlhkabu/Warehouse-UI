@@ -1,0 +1,13 @@
+strong {
+  font-weight: 600;
+}
+
+a {
+  color: $brand-color;
+  text-decoration: none;
+
+  &:hover {
+    color: darken($brand-color, 10);
+    text-decoration: underline;
+  }
+}

@@ -4,7 +4,7 @@ title: Package Details
 permalink: /package/
 ---
 
-<section class="package-header">
+<section class=" banner package-header">
   <div class="container">
     <p class="license">License: <a href="#">BSD</a></p>
     <h1>Package Verbose Name v3.1</h1>

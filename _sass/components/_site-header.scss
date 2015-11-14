@@ -1,0 +1,35 @@
+.site-header {
+  background-color: lighten($brand-color, 2);
+  border-bottom: 1px solid darken($brand-color, 2);
+
+  .pypi-logo {
+    padding: 15px 0;
+    max-width: 65px;
+    float: left;
+
+    @media screen and (max-width: 400px) {
+      max-width: 50px;
+    }
+  }
+
+  .search {
+    float: left;
+    margin: 25px 0 0 50px;
+
+    @media screen and (max-width: 750px) {
+      display: none;
+    }
+
+    input[type=text]{
+      display: inline;
+      float: left;
+      width: 400px;
+      margin-right: 5px;
+      border-color: $white;
+
+      @media screen and (max-width: 900px) {
+        width: 250px;
+      }
+    }
+  }
+}

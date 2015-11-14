@@ -3,34 +3,133 @@
 ---
 @charset "utf-8";
 
+// WAREHOUSE
 
-// First, let's define our variables
-$base-font-family: 'Source Sans Pro', 'Helvetica', Arial, sans-serif;
-$base-font-size:   17px;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.4;
+/*
+  This is the primary import file for the CSS for the Warehouse project (PyPI).
+  This project uses a variation of the ITCSS system to control CSS inheritance.
+  The basic idea is that you should define CSS rules in an order moving
+  from generic to specific. This is done so we avoid rules overwriting rules
+  overwriting rules overwriting... you get the picture.
+  Imports are organised into the six layers defined below:
+*/
 
-$code-font: 'Source Code Pro', monospace;
-$spacing-unit:     30px;
 
-$brand-color:      #006dad;
-$highlight-color:  #ffd343;
+/*
+ * CONTENTS
+ *
+ * TOOLS LAYER
+ * Got a cool SASS functions you want to use?  Import them here.
+ * Bourbon..............Mixins and functions provided from Bourbon (bourbon.io)
+ * Neat.................Grid mixins and functions from Neat (neat.bourbon.io)
+ *
+ * SETTINGS LAYER
+ * Here we import our high level variables to use throughout the rest of the
+ * project
+ * Colors...............Manage our color palette in isolation.
+ * Fonts................Define our font families and base sizes.
+ * Neat-settings........Custom settings for the neat library.
+ *
+ * GENERIC LAYER
+ * Let's lay our foundation and clean off any browser set CSS.
+ * Normalize.css........A level playing field.
+ * Reset................A pared back reset to remove margins.
+ * Box-sizing...........Better default `box-sizing`.
+ *
+ * BASE LAYER
+ * High-level styles, applied to unnamed HTML elements (e.g. p, ol, ul, etc.)
+ * Page.................Page-level styles, including universal styles.
+ * Headings.............Heading styles
+ * Type.................Misc type styles, including link styling
+ * ImagesFigures........Images and Figures.
+ * Lists................inuitcss list styles
+ * Tables...............
+ * Forms................
 
-$white:            #fff;
-$background-color: #fdfdfd;
-$base-grey:        #ececec;
-$text-color:       #464646;
+ * LAYOUT
+ * Containers
+ * Collapsable columns
 
-@import
-        "bourbon/bourbon", // provides a range of SASS mixins to utilise in our custom code
-        "neat/neat", // semantic grid for the win!
-        "base",
-        "grid",
-        "layout",
-        "header",
-        "footer",
-        "home",
-        "packages",
-        "package",
-        "author"
-;
+ *
+ * COMPONENTS
+
+ * Subtitle
+ * Button
+ * Horizontal-section
+ * Package list.........Includes styles for individual package cards.
+ * Badge
+ * Lede-paragraph
+ * Sponsor footer
+ * Author-profile
+ * Notification-bar
+ * Horizontal menu
+ * Mobile-search-bar
+ * Site header
+
+ *
+ * TRUMPS
+ * Remove-margin........GET RID OF ME!!! PLEASE!!!
+ */
+
+
+$spacing-unit: 30px;
+
+// TOOLS LAYER
+@import "tools/bourbon/bourbon"; //Also imports bourbon's default settings
+@import "tools/neat/neat"; //Also imports neat's default settings
+
+// SETTINGS LAYER
+@import "settings/colours";
+@import "settings/fonts";
+@import "settings/neat";
+
+// GENERIC LAYER
+@import "generic/normalize";
+@import "generic/reset";
+@import "generic/boxsizing";
+
+// BASE LAYER
+@import "base/page";
+@import "base/headings";
+@import "base/type";
+@import "base/images-figures";
+@import "base/lists";
+@import "base/tables";
+@import "base/forms";
+
+// LAYOUT LAYER
+@import "layout/collapsing-columns";
+@import "layout/containers";
+
+
+// COMPONENTS LAYER
+@import "components/subtitle";
+@import "components/buttons";
+@import "components/horizontal-section";
+@import "components/package-list";
+@import "components/badge";
+@import "components/lede-paragraph";
+@import "components/banner";
+@import "components/author-profile";
+@import "components/sponsor-footer";
+@import "components/notification-bar";
+@import "components/mobile-search-bar";
+@import "components/horizontal-navigation";
+@import "components/site-header";
+@import "components/card";
+@import "components/statistics-bar";
+@import "components/about-pypi";
+@import "components/homepage-hero";
+@import "components/footer";
+@import "components/package-header";
+@import "components/package-status";
+@import "components/package-links";
+
+
+// TRUMPS LAYER
+@import "trumps/remove-margin";
+
+
+
+@import "packages",
+        "package";

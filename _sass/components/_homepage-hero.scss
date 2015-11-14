@@ -1,13 +1,6 @@
 
 .homepage-banner {
-  background-color: $brand-color;
-  color: $white;
   text-align: center;
-  padding: 60px 0;
-
-  @media only screen and (max-width: 400px){
-     padding: 30px 0;
-  }
 
   h1 {
     max-width: 810px;
@@ -83,72 +76,4 @@
       text-decoration-color: rgba(255,255,255, 0.4);
     }
   }
-}
-
-section.statistics {
-  text-align: center;
-  padding: 10px 0;
-
-  @media only screen and (max-width: 400px){
-     display: none;
-  }
-
-  p {
-    color: darken($brand-color, 15);
-    font-size: 20px;
-    display: inline-block;
-    padding: 10px 20px;
-    margin: 0;
-    box-sizing: border-box;
-
-    @media only screen and (max-width: 800px){
-       font-size: 18px;
-    }
-  }
-}
-
-.about-pypi {
-  display: table;
-  max-width: 1000px;
-  margin: 0 auto;
-
-  .large-logo,
-  .about-text {
-    display: table-cell;
-    vertical-align: middle;
-    float: none;
-
-    @media only screen and (max-width: 550px){
-       display: block;
-       width: 100%;
-    }
-
-    @media only screen and (max-width: 550px){
-      margin-bottom: -10px;
-    }
-  }
-
-  .large-logo {
-    text-align: right;
-
-    @media only screen and (max-width: 550px){
-      display: none;
-    }
-
-    img {
-      width: 220px;
-      max-width: 100%;
-      margin: -15px 50px 0 0;
-
-      @media only screen and (max-width: 800px){
-         margin-right: 20px;
-      }
-    }
-  }
-}
-
-@media only screen and (max-width: 800px){
-  .top-packages {
-    margin-bottom: 40px;
-  }
-}
+} 

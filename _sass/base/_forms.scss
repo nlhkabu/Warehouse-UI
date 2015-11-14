@@ -1,0 +1,23 @@
+input[type=text],
+input[type=password],
+select {
+  border-radius: 2px;
+  box-sizing: border-box;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  background-color: $white;
+  padding: 8px;
+  color: #464646;
+  height: 40px;
+  line-height: 22px;
+  border: 1px solid darken($base-grey, 10);
+
+  &:focus {
+    box-shadow: inset 0px 0px 0px 2px lighten($brand-color, 45);
+    border-color: lighten($brand-color, 45) !important;
+  }
+}
+
+select {
+  padding: 7px 5px;
+}

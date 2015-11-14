@@ -1,0 +1,81 @@
+#{$all-buttons},
+.button {
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 7px 15px;
+  color: lighten($text-color, 10);
+  border: 2px solid darken($base-grey, 10);
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.button.large {
+  font-size: 20px;
+  padding: 7px 15px;
+}
+
+.button.small {
+  font-size: 14px;
+  padding: 4px 10px;
+}
+
+.button:focus,
+#{$all-buttons-focus},
+.button:hover,
+#{$all-buttons-hover},
+.button:active,
+#{$all-buttons-active}  {
+  border: 2px solid $brand-color;
+  color: darken($brand-color, 10);
+  text-decoration: none;
+
+}
+
+.button.highlight,
+input.button.highlight {
+  border-color: $brand-color;
+  background-color: $brand-color;
+  color: $white;
+
+  &:hover {
+    background-color: darken($brand-color, 2);
+    text-decoration-color: rgba(255,255,255, .2);
+  }
+}
+
+.button.dark,
+input.button.dark {
+  border-color: darken($brand-color, 16);
+  background-color: darken($brand-color, 15);
+  color: $white;
+
+  &:hover {
+    border-color: darken($brand-color, 21);
+    background-color: darken($brand-color, 20);
+  }
+}
+
+.button-switch {
+  display: block;
+  margin: 15px 0 25px;
+  @include clearfix;
+
+  .button {
+    float: left;
+    border-radius: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+  }
+
+  .button:first-child {
+    border-radius: 3px 0 0 3px;
+    border-left-width: 2px;
+  }
+
+  .button:last-child {
+    border-radius: 0 3px 3px 0;
+    border-right-width: 2px;
+  }
+}
