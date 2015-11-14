@@ -1,24 +1,22 @@
 table {
+  @extend .card;
+  @include border-width(1px null);
   border-collapse: collapse;
   border-spacing: 0;
   text-align: left;
   margin: 25px 0 0 0;
-  border: 0;
-  font-size: 15px;
+  font-size: $small-font-size;
   width: 100%;
-  border-top: 1px solid #DFDFDF;
-  border-left: 1px solid #DFDFDF;
-  box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.05);
 
   tr {
-    border-bottom: 1px solid #DFDFDF;
+    border-bottom: 1px solid $border-color;
   }
 
   th, td {
     margin: 0;
     border: 0;
     padding: 15px 10px;
-    border-right: 1px solid #ececec;
+    border-right: 1px solid $border-color;
   }
 
   thead tr {
@@ -26,7 +24,7 @@ table {
 
     th {
       vertical-align: bottom;
-      font-weight: 600;
+      font-weight: $bold-font-weight;
     }
   }
 

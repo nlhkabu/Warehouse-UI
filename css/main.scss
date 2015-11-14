@@ -22,6 +22,7 @@
  * Got a cool SASS functions you want to use?  Import them here.
  * Bourbon..............Mixins and functions provided from Bourbon (bourbon.io)
  * Neat.................Grid mixins and functions from Neat (neat.bourbon.io)
+ * Grid-helpers.........
  *
  * SETTINGS LAYER
  * Here we import our high level variables to use throughout the rest of the
@@ -29,6 +30,7 @@
  * Colors...............Manage our color palette in isolation.
  * Fonts................Define our font families and base sizes.
  * Neat-settings........Custom settings for the neat library.
+ * Grid-settings........
  *
  * GENERIC LAYER
  * Let's lay our foundation and clean off any browser set CSS.
@@ -71,17 +73,16 @@
  * Remove-margin........GET RID OF ME!!! PLEASE!!!
  */
 
-
-$spacing-unit: 30px;
-
 // TOOLS LAYER
 @import "tools/bourbon/bourbon"; //Also imports bourbon's default settings
 @import "tools/neat/neat"; //Also imports neat's default settings
+@import "tools/grid-helpers";
 
 // SETTINGS LAYER
 @import "settings/colours";
 @import "settings/fonts";
 @import "settings/neat";
+@import "settings/grid";
 
 // GENERIC LAYER
 @import "generic/normalize";
@@ -130,6 +131,6 @@ $spacing-unit: 30px;
 @import "trumps/remove-margin";
 
 
-
+// still need to do these...
 @import "packages",
         "package";

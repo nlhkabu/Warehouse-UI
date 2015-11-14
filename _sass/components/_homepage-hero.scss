@@ -6,8 +6,6 @@
     max-width: 810px;
     margin: 0 auto;
     padding: 0 20px 40px 20px;
-    font-size: 40px;
-    line-height: 50px;
 
     @media only screen and (max-width: 800px){
        font-size: 35px;
@@ -29,8 +27,6 @@
       display: inline-block;
       width: 600px;
       max-width: 70%;
-      box-sizing: border-box;
-      border-color: $white;
       height: 46px;
 
       @media only screen and (max-width: 400px){
@@ -76,4 +72,4 @@
       text-decoration-color: rgba(255,255,255, 0.4);
     }
   }
-} 
+}

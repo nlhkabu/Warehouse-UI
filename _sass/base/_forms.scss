@@ -1,21 +1,19 @@
-input[type=text],
-input[type=password],
+#{$all-text-inputs},
 select {
   border-radius: 2px;
-  box-sizing: border-box;
-  font-family: $base-font-family;
-  font-size: $base-font-size;
   background-color: $white;
-  padding: 8px;
-  color: #464646;
-  height: 40px;
-  line-height: 22px;
-  border: 1px solid darken($base-grey, 10);
+  padding: em(8px);
+  height: em(40px);
+  border: 1px solid $border-color;
+  color: $text-color;
+}
 
-  &:focus {
-    box-shadow: inset 0px 0px 0px 2px lighten($brand-color, 45);
-    border-color: lighten($brand-color, 45) !important;
-  }
+#{$all-text-inputs-focus},
+#{$all-text-inputs-hover},
+select:focus,
+select:hover {
+  box-shadow: inset 0px 0px 0px 2px $brand-color-soft;
+  border-color: $brand-color-soft;
 }
 
 select {

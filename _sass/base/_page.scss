@@ -8,14 +8,9 @@ body {
     -webkit-text-size-adjust: 100%;
 }
 
-::selection {
+@include selection {
   color: darken($brand-color, 15);
-  background: $highlight-color; /* WebKit/Blink Browsers */
-}
-
-::-moz-selection {
-  color: darken($brand-color, 15);
-  background: $highlight-color; /* Gecko Browsers */
+  background: $highlight-color;
 }
 
 /**
