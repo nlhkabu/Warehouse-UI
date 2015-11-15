@@ -51,10 +51,10 @@ $(document).ready(function() {
     $('.filter-packages').hide();
   });
 
-  // Position PyPI warning message
+  // Position Sticky bar
   function positionWarning(){
-    var height = $('section.warning').outerHeight();
-    $('body.test-pypi').css('paddingTop', height);
+    var height = $('.sticky-bar').outerHeight();
+    $('body:has(.sticky-bar)').css('paddingTop', height);
   }
 
   positionWarning();
@@ -62,7 +62,5 @@ $(document).ready(function() {
   $(window).resize(function(){
     positionWarning();
   });
-
-
 
 });

@@ -1,9 +1,6 @@
-.container {
+.site-container {
   @include container-width($site-container);
-
-  @media screen and (max-width: 1200px) {
-    padding: 0 20px;
-  }
+  padding: 0 20px;
 
   @media screen and (max-width: 400px) {
     padding: 0 15px;

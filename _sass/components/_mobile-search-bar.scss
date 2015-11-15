@@ -1,37 +1,7 @@
-section.mobile-search {
+.mobile-search {
   display: none;
   padding: 10px;
   background-color: darken($brand-color, 5);
-
-  .search {
-    @include clearfix;
-
-    input[type=text] {
-      width: 79%;
-      margin: 0;
-      float: left;
-    }
-
-    .button {
-      width: 20%;
-      float: right;
-
-      i.fa {
-        display: none;
-      }
-
-      @media only screen and (max-width: 450px){
-        span {
-          display: none;
-        }
-
-        i.fa {
-          display: block;
-          line-height: 22px;
-        }
-      }
-    }
-  }
 
   @media screen and (max-width: 750px) {
     display: block;

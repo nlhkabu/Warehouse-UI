@@ -26,7 +26,7 @@ permalink: /packages/
     <span>Topic :: Communications</span>
     <a href="#"><i class="fa fa-close"></i></a>
   </div>
-  <a href="#" class="add-filter button small">Add Filter</a>
+  <a href="#" class="add-filter wh-button -small">Add Filter</a>
 </div>
 
 <section>

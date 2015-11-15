@@ -1,7 +1,6 @@
 // Tabs and tab content
 
 .vertical-tabs-container {
-  $base-border-color: gainsboro !default;
   $base-border-radius: 3px !default;
   $base-background-color: $white !default;
   $base-line-height: 1.5em !default;
@@ -10,9 +9,8 @@
   $dark-gray: #333 !default;
   $medium-screen: em(640) !default;
   $base-font-color: $dark-gray !default;
-  $tab-border-color: $base-border-color;
-  $tab-border: 1px solid $tab-border-color;
-  $tab-content-background: lighten($tab-border-color, 10%);
+  $tab-border: 1px solid #ececec;
+  $tab-content-background: #ececec;
   $tab-inactive-color: $base-background-color;
   $vertical-tabs-height: em(300);
   $vertical-tab-mode: $medium-screen;
@@ -121,7 +119,7 @@
   }
 
   .sidebar-section {
-    padding-bottom:20px;
+    padding-bottom: 20px;
     margin-bottom: 20px;
     border-bottom: 2px solid #ececec;
 
@@ -169,7 +167,7 @@ h2.history {
   }
 }
 
-.button.toggle {
+.wh-button.-js-toggle {
   float: right;
   margin-right: 20px;
 
@@ -324,16 +322,14 @@ h2.history {
 // Statistics tab
 
 .download-graph {
-  background-color: #ececec;
+  @extend .card;
   width: 100%;
   height: 450px;
-  border: 1px solid darken(#ececec, 5);
-  box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.05);
   margin-bottom: 10px;
 
   .download-overview {
     @include clearfix;
-    border-bottom: 1px solid darken(#ececec, 5);
+    border-bottom: 1px solid $border-color;
     background-color: $white;
     display: table;
     width: 100%;

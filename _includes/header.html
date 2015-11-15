@@ -1,23 +1,30 @@
 <header class="site-header">
-  <div class="container">
-    <a href="{{ site.baseurl }}"><img src="{{ "/img/pypi-sml.png" | prepend: site.baseurl }}" alt="PyPI logo" class="pypi-logo"/></a>
-
-    <form class="search" action="{{ "/packages/" | prepend: site.baseurl }}">
-      <input type="text" placeholder="Search Packages">
-      <button class="button dark">Search</button>
-    </form>
-
-    <nav class="horizontal">
-      <a href="#">Login</a>
-      <a href="#">Register</a>
-      <a href="#">Help</a>
-    </nav>
+  <div class="site-container">
+    <div class="split-layout">
+      <div class="split-layout">
+        <a class="brand-logo" href="{{ site.baseurl }}">
+          <img class="logo" src="{{ "/img/pypi-sml.png" | prepend: site.baseurl }}" alt="PyPI logo"/>
+        </a>
+        <form class="search-form -primary" action="{{ "/packages/" | prepend: site.baseurl }}">
+          <input class="search" type="text" placeholder="Search Packages">
+          <button class="wh-button -dark">Search</button>
+        </form>
+      </div>
+      <nav class="horizontal-menu -light -tall">
+        <a class="link" href="#">Login</a>
+        <a class="link" href="#">Register</a>
+        <a class="link" href="#">Help</a>
+      </nav>
+    </div>
   </div>
 </header>
 
 <section class="mobile-search">
-  <form class="search" action="{{ "/packages/" | prepend: site.baseurl }}">
-    <input type="text" placeholder="Search Packages">
-    <button class="button dark"><span>Search</span><i class="fa fa-search"></i></button>
+  <form class="search-form -fullwidth" action="{{ "/packages/" | prepend: site.baseurl }}">
+    <input class="search" type="text" placeholder="Search Packages">
+    <button class="wh-button -dark">
+      <i class="icon fa fa-search"></i>
+      <span class="text">Search</span>
+    </button>
   </form>
 </section>

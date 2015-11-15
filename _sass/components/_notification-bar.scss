@@ -1,26 +1,21 @@
-// Test banner
-.test-pypi {
-  .warning {
-    background-color: #f41f1f;
+.notification-bar {
+    @extend .h3;
     border-bottom: 2px solid $white;
     border-top: 2px solid $white;
-    color: $white;
     text-align: center;
-    position: fixed;
-    z-index: 5;
-    top: 0;
-    width: 100%;
-    line-height: 25px;
-    font-weight: 600;
-    font-size: 20px;
+    background-color: darken($brand-color, 10);
+    color: $white;
+    padding: 15px;
 
-    p {
-      padding: 15px;
-      margin: 0;
-
-      i {
-        font-size: 16px;
-      }
+    .icon {
+      font-size: $small-font-size;
     }
-  }
+}
+
+.notification-bar.-warning {
+  background-color: $danger-color;
+}
+
+.notification-bar.-success {
+  background-color: $success-color;
 }

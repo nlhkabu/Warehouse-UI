@@ -2,30 +2,33 @@
 layout: home
 ---
 
-<section class="banner homepage-banner">
-  <div class="container">
+<section class="banner-block">
+  <div class="homepage-hero">
     <h1>Find, install and publish Python packages with the Python Package Index</h1>
 
-    <form class="search" action="{{ "/packages/" | prepend: site.baseurl }}">
-      <input type="text" placeholder="Search Packages">
-      <button class="button dark large"><span>Search</span><i class="fa fa-search"></i></button>
+    <form class="search-form -large -fullwidth" action="{{ "/packages/" | prepend: site.baseurl }}">
+      <input class="search -large" type="text" placeholder="Search Packages">
+      <button class="wh-button -dark -large">
+        <i class="icon fa fa-search"></i>
+        <span class="text">Search</span>
+      </button>
     </form>
 
-    <p class="browse">Or <a href="{{ "/packages/" | prepend: site.baseurl }}">browse packages</a></p>
+    <p class="browse-packages">Or <a href="{{ "/packages/" | prepend: site.baseurl }}">browse packages</a></p>
   </div>
 </section>
 
-<section class="statistics grey">
-  <div class="container">
-    <p>78,007 Projects</p>
-    <p>398,851 Releases</p>
-    <p>470,504 Files</p>
-    <p>122,594 Users</p>
+<section class="horizontal-section -grey -thin -statistics">
+  <div class="statistics-bar">
+    <p class="statistic">78,007 Projects</p>
+    <p class="statistic">398,851 Releases</p>
+    <p class="statistic">470,504 Files</p>
+    <p class="statistic">122,594 Users</p>
   </div>
 </section>
 
-<section class="content">
-  <div class="container about-pypi">
+<section class="horizontal-section">
+  <div class="site-container about-pypi">
     <div class="large-logo">
       <img src="{{ "/img/pypi-large.png" | prepend: site.baseurl }}" alt="PyPI logo" class="pypi-logo"/>
     </div>
@@ -43,11 +46,13 @@ layout: home
   </div>
 </section>
 
-<section class="content grey">
-  <div class="container">
+<section class="horizontal-section -grey">
+  <div class="site-container">
     <div class="col-6 top-packages">
-      <h2>Top Packages</h2>
-      <p class="subtitle">Top packages as downloaded by the community</p>
+      <div class="heading-wsubtitle">
+        <h2 class="heading">Top Packages</h2>
+        <p class="subtitle">Top packages as downloaded by the community</p>
+      </div>
       <div class="package-list">
         <div class="package-snippet">
           <h3 class="title"><a href="{{ "/package/" | prepend: site.baseurl }}">package_title</a></h3>
@@ -94,11 +99,13 @@ layout: home
           </p>
         </div>
       </div>
-      <a href="#" class="button">Show More</a>
+      <a href="#" class="wh-button">Show More</a>
     </div>
     <div class="col-6">
-      <h2>New Packages</h2>
-      <p class="subtitle">Hot off the press: the newest packages to be released to PyPI</p>
+      <div class="heading-wsubtitle">
+        <h2 class="heading">New Packages</h2>
+        <p class="subtitle">Hot off the press: the newest packages to be released to PyPI</p>
+      </div>
       <div class="package-list">
         <div class="package-snippet">
           <h3 class="title"><a href="{{ "/package/" | prepend: site.baseurl }}">package_title</a></h3>
@@ -145,7 +152,7 @@ layout: home
           </p>
         </div>
       </div>
-      <a href="#" class="button">Show More</a>
+      <a href="#" class="wh-button">Show More</a>
     </div>
   </div>
 </section>

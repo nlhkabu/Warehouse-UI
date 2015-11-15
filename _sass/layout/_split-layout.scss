@@ -1,0 +1,15 @@
+// LAYOUT - SPLIT LAYOUT
+
+// Float one child left, the other right.
+
+.split-layout {
+  @include clearfix;
+
+  > :first-child {
+    float: left;
+  }
+
+  > :last-child {
+    float: right;
+  }
+}

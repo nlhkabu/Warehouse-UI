@@ -4,8 +4,8 @@ title: Package Details
 permalink: /package/
 ---
 
-<section class=" banner package-header">
-  <div class="container">
+<section class="banner-block ">
+  <div class="package-header">
     <p class="license">License: <a href="#">BSD</a></p>
     <h1>Package Verbose Name v3.1</h1>
     <p class="description">Package description goes here</p>
@@ -14,28 +14,28 @@ permalink: /package/
       <span>pip install package_name</span>
       <a href="clicking-here-copies-text"><i class="fa fa-copy"></i></a>
     </p>
-
+    
     <p class="help-link"><a href="#">How do I install this?</a></p>
   </div>
 </section>
 <section class="package-status">
-  <div class="container">
+  <div class="site-container">
     <a class="bad status-badge" href="#">Newer version available (v3.2)</a>
     <a class="dependencies good status-badge" href="#">Dependencies up to date</a>
     <a class="unknown status-badge" href="#">Test status unknown</a>
     <a class="unknown status-badge" href="#">Test coverage unknown</a>
   </div>
 </section>
-<section class="package-links grey">
-  <div class="container">
-    <div class="link-container">
-      <ul>
-        <li><a href="#"><i class="fa fa-home"></i>Homepage</a></li>
-        <li><a href="#"><i class="fa fa-github"></i>Source Code</a></li>
-        <li><a href="#"><i class="fa fa-book"></i>Documentation</a></li>
-        <li><a href="#"><i class="fa fa-slack"></i>Slack</a></li>
-        <li><a href="#"><i class="fa fa-external-link-square"></i>Another Link</a></li>
-      </ul>
+<section class="horizontal-section -grey -thin">
+  <div class="site-container">
+    <div class="split-layout">
+      <nav class="horizonal-menu">
+        <a class="link" href="#"><i class="fa fa-home"></i>Homepage</a>
+        <a class="link" href="#"><i class="fa fa-github"></i>Source Code</a>
+        <a class="link" href="#"><i class="fa fa-book"></i>Documentation</a>
+        <a class="link" href="#"><i class="fa fa-slack"></i>Slack</a>
+        <a class="link" href="#"><i class="fa fa-external-link-square"></i>Another Link</a>
+      </nav>
       <p class="author-info">
         <span>Last updated 10 months ago by <a href="{{ "/author/" | prepend: site.baseurl }}">Author Name</a></span>
         <a href="{{ "/author/" | prepend: site.baseurl }}"><img src="http://placehold.it/40x40"></a>
@@ -44,7 +44,7 @@ permalink: /package/
   </div>
 </section>
 <section>
-  <div class="container">
+  <div class="site-container">
   <div class="vertical-tabs-container">
 <div class="vertical-tabs">
   <div class="sidebar-section">
@@ -137,7 +137,7 @@ permalink: /package/
   <a href="" class="js-vertical-tab-accordion-heading vertical-tab-accordion-heading" rel="tab3">History</a>
   <div id="tab3" class="js-vertical-tab-content vertical-tab-content">
     <h2 class="history">Version History &amp; Changelog</h2>
-    <a href="#" class="button toggle">Expand All</a><!-- clicking here the text changes to 'Collapse All' -->
+    <a href="#" class="wh-button -js-toggle">Expand All</a><!-- clicking here the text changes to 'Collapse All' -->
 
     <section class="version-history-graphic">
       <div class="history-section latest">
@@ -244,9 +244,10 @@ permalink: /package/
   <a href="" class="js-vertical-tab-accordion-heading vertical-tab-accordion-heading" rel="tab4">Statistics</a>
   <div id="tab4" class="js-vertical-tab-content vertical-tab-content">
     <h2>Download Statistics</h2>
-    <div class="button-switch">
-      <a href="#" class="button highlight">All versions</a>
-      <a href="#" class="button">This version only (3.1)</a>
+    <div class="button-set">
+      <a href="#" class="wh-button -highlight">All versions</a>
+      <a href="#" class="wh-button">This version only (3.1)</a>
+      <a href="#" class="wh-button">This version only (3.1)</a>
     </div>
 
     <div class="download-graph">
@@ -371,6 +372,6 @@ permalink: /package/
         </p>
       </div>
     </div>
-    <a href="#" class="button">Show More</a>
+    <a href="#" class="wh-button">Show More</a>
   </div>
 </section>

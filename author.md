@@ -4,8 +4,8 @@ title: Author
 permalink: /author/
 ---
 
-<section class="banner author-banner">
-  <div class="container">
+<section class="banner-block">
+  <div class="site-container">
     <div class="author-details">
       <div class="profile-img">
         <img src="http://placehold.it/110x110" alt="author name"/>
@@ -26,8 +26,8 @@ permalink: /author/
   </div>
 </section>
 
-<section class="content">
-  <div class="container">
+<section class="horizontal-section">
+  <div class="site-container">
     <h3>Six packages authored by Author Name</h3>
     <div class="package-list">
       <div class="package-snippet">

@@ -1,6 +1,5 @@
 .highlight-badge {
-  font-size: 14px;
-  font-weight: normal;
+  font-size: $base-font-size * .75;
   text-transform: uppercase;
   color: darken($highlight-color, 50);
   background-color: $highlight-color;

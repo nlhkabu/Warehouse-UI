@@ -11,7 +11,7 @@
   The basic idea is that you should define CSS rules in an order moving
   from generic to specific. This is done so we avoid rules overwriting rules
   overwriting rules overwriting... you get the picture.
-  Imports are organised into the six layers defined below:
+  Imports are organised into the seven layers defined below:
 */
 
 
@@ -33,7 +33,7 @@
  * Grid-settings........
  *
  * GENERIC LAYER
- * Let's lay our foundation and clean off any browser set CSS.
+ * Let's lay our foundation and clean off any browser CSS.
  * Normalize.css........A level playing field.
  * Reset................A pared back reset to remove margins.
  * Box-sizing...........Better default `box-sizing`.
@@ -101,21 +101,25 @@
 // LAYOUT LAYER
 @import "layout/collapsing-columns";
 @import "layout/containers";
-
+@import "layout/sticky-bar";
+@import "layout/split-layout";
+@import "layout/banner-block";
 
 // COMPONENTS LAYER
-@import "components/subtitle";
-@import "components/buttons";
+@import "components/large-input";
+@import "components/brand-logo";
+@import "components/heading-wsubtitle";
+@import "components/wh-buttons";
+@import "components/button-set";
 @import "components/horizontal-section";
 @import "components/package-list";
-@import "components/badge";
+@import "components/highlight-badge";
 @import "components/lede-paragraph";
-@import "components/banner";
 @import "components/author-profile";
 @import "components/sponsor-footer";
 @import "components/notification-bar";
 @import "components/mobile-search-bar";
-@import "components/horizontal-navigation";
+@import "components/horizontal-menu";
 @import "components/site-header";
 @import "components/card";
 @import "components/statistics-bar";
@@ -125,6 +129,7 @@
 @import "components/package-header";
 @import "components/package-status";
 @import "components/package-links";
+@import "components/search-form";
 
 
 // TRUMPS LAYER
