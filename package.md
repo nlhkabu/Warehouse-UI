@@ -14,7 +14,7 @@ permalink: /package/
       <span>pip install package_name</span>
       <a href="clicking-here-copies-text"><i class="fa fa-copy"></i></a>
     </p>
-    
+
     <p class="help-link"><a href="#">How do I install this?</a></p>
   </div>
 </section>
@@ -103,7 +103,7 @@ permalink: /package/
 
     <h2>Reverse Dependencies (3)</h2>
     <p>The following packages rely on <em>Package Verbose Name</em>:</p>
-    <div class="package-list no-margin">
+    <div class="package-list">
       <div class="package-snippet">
         <h3 class="title"><a href="{{ "/package/" | prepend: site.baseurl }}">package_title</a></h3>
         <p class="meta">
@@ -136,8 +136,10 @@ permalink: /package/
 
   <a href="" class="js-vertical-tab-accordion-heading vertical-tab-accordion-heading" rel="tab3">History</a>
   <div id="tab3" class="js-vertical-tab-content vertical-tab-content">
-    <h2 class="history">Version History &amp; Changelog</h2>
-    <a href="#" class="wh-button -js-toggle">Expand All</a><!-- clicking here the text changes to 'Collapse All' -->
+    <div class="split-layout">
+      <h2>Version History &amp; Changelog</h2>
+      <a href="#" class="wh-button -js-toggle">Expand All</a><!-- clicking here the text changes to 'Collapse All' -->
+    </div>
 
     <section class="version-history-graphic">
       <div class="history-section latest">
@@ -268,7 +270,7 @@ permalink: /package/
     <h2>Package Files</h2>
     <p>TODO: Brief introduction on what you do with files - including link to relevant help section.</p>
 
-    <table class="package-downloads">
+    <table class="downloads-table">
       <thead>
         <tr>
           <th class="filename">File Name</th>

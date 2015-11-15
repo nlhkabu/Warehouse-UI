@@ -4,9 +4,9 @@ title: Search / Browse Pacakage
 permalink: /packages/
 ---
 
-<section class="order-results">
-  <p class="description"><strong>34,503</strong> packages matching '<em>search term</em>'</p>
-  <p class="order">
+<section class="split-layout -table">
+  <p><strong>34,503</strong> packages matching '<em>search term</em>'</p>
+  <p>
     <span>Order packages by</span>
     <select>
       <option>Relevance</option>
@@ -77,5 +77,5 @@ permalink: /packages/
       </p>
     </div>
   </div>
-  <a href="#" class="button">Show More Results</a>
+  <a href="#" class="wh-button">Show More Results</a>
 </section>

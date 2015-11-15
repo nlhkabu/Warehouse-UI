@@ -70,7 +70,7 @@
 
  *
  * TRUMPS
- * Remove-margin........GET RID OF ME!!! PLEASE!!!
+ * 
  */
 
 // TOOLS LAYER
@@ -104,6 +104,7 @@
 @import "layout/sticky-bar";
 @import "layout/split-layout";
 @import "layout/banner-block";
+@import "layout/onethird-twothirds";
 
 // COMPONENTS LAYER
 @import "components/large-input";
@@ -121,7 +122,7 @@
 @import "components/mobile-search-bar";
 @import "components/horizontal-menu";
 @import "components/site-header";
-@import "components/card";
+@import "components/card-style";
 @import "components/statistics-bar";
 @import "components/about-pypi";
 @import "components/homepage-hero";
@@ -130,12 +131,13 @@
 @import "components/package-status";
 @import "components/package-links";
 @import "components/search-form";
-
-
-// TRUMPS LAYER
-@import "trumps/remove-margin";
-
-
-// still need to do these...
-@import "packages",
-        "package";
+@import "components/vertical-tabs";
+@import "components/sidebar-section";
+@import "components/downloads-table";
+@import "components/download-graph";
+@import "components/history-timeline";
+@import "components/filter-badge";
+@import "components/accordion-menu";
+@import "components/checkbox-tree";
+@import "components/filter-list";
+@import "components/panel-overlay";
