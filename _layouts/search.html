@@ -8,13 +8,16 @@
     {% include test-pypi.html %}
     {% include header.html %}
 
-      <div class="site-container">
-        {% include search-sidebar.html %}
-        <div class="overlay"></div>
-        <div class="search-results">
+    <section class="horizontal-section -medium">
+      <div class="left-sidebar">
+        <div class="sidebar">
+          {% include search-sidebar.html %}
+        </div>
+        <div class="main">
           {{ content }}
         </div>
       </div>
+    </section>
 
     {% include footer.html %}
 

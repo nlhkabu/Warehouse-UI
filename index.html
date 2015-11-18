@@ -4,8 +4,7 @@ layout: home
 
 <section class="banner-block">
   <div class="homepage-hero">
-    <h1>Find, install and publish Python packages with the Python Package Index</h1>
-
+    <h1 class="title">Find, install and publish Python packages with the Python Package Index</h1>
     <form class="search-form -large -fullwidth" action="{{ "/packages/" | prepend: site.baseurl }}">
       <input class="search -large" type="text" placeholder="Search Packages">
       <button class="wh-button -dark -large">
@@ -13,8 +12,7 @@ layout: home
         <span class="text">Search</span>
       </button>
     </form>
-
-    <p class="browse-packages">Or <a href="{{ "/packages/" | prepend: site.baseurl }}">browse packages</a></p>
+    <p class="browse">Or <a href="{{ "/packages/" | prepend: site.baseurl }}">browse packages</a></p>
   </div>
 </section>
 
@@ -48,7 +46,7 @@ layout: home
 
 <section class="horizontal-section -grey">
   <div class="site-container">
-    <div class="col-6 top-packages">
+    <div class="half-column">
       <div class="heading-wsubtitle">
         <h2 class="heading">Top Packages</h2>
         <p class="subtitle">Top packages as downloaded by the community</p>
@@ -101,7 +99,7 @@ layout: home
       </div>
       <a href="#" class="wh-button">Show More</a>
     </div>
-    <div class="col-6">
+    <div class="half-column">
       <div class="heading-wsubtitle">
         <h2 class="heading">New Packages</h2>
         <p class="subtitle">Hot off the press: the newest packages to be released to PyPI</p>

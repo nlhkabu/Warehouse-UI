@@ -20,10 +20,10 @@ permalink: /package/
 </section>
 <section class="package-status">
   <div class="site-container">
-    <a class="bad status-badge" href="#">Newer version available (v3.2)</a>
-    <a class="dependencies good status-badge" href="#">Dependencies up to date</a>
-    <a class="unknown status-badge" href="#">Test status unknown</a>
-    <a class="unknown status-badge" href="#">Test coverage unknown</a>
+    <a class="status-badge -bad" href="#">Newer version available (v3.2)</a>
+    <a class="status-badge -good" href="#">Dependencies up to date</a>
+    <a class="status-badge -unknown" href="#">Test status unknown</a>
+    <a class="status-badge -unknown" href="#">Test coverage unknown</a>
   </div>
 </section>
 <section class="horizontal-section -grey -thin">
